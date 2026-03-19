@@ -1,1 +1,208 @@
-{"data":"InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgdXNlU3RhdGUsIHVzZUVmZmVjdCwgdXNlQ2FsbGJhY2sgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBDYXJkLCBDYXJkQ29udGVudCwgQ2FyZEhlYWRlciB9IGZyb20gIkAvY29tcG9uZW50cy91aS9jYXJkIjsKaW1wb3J0IHsgVGV4dGFyZWEgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvdGV4dGFyZWEiOwppbXBvcnQgeyBIZWFydEljb24gfSBmcm9tICJAL2NvbXBvbmVudHMvaWNvbnMiOwppbXBvcnQgeyBVc2VyLCBRdWVzdGlvbiwgZ2V0Q291cGxlU3RhdHVzLCBzYXZlQW5zd2VyLCBnZXRBbnN3ZXJzRm9yRGF0ZSB9IGZyb20gIkAvbGliL3N0b3JhZ2UiOwoKaW50ZXJmYWNlIERhaWx5UXVlc3Rpb25Qcm9wcyB7CiAgdXNlcjogVXNlcjsKfQoKZnVuY3Rpb24gZm9ybWF0RGF0ZUtleShkYXRlOiBEYXRlKTogc3RyaW5nIHsKICByZXR1cm4gZGF0ZS50b0lTT1N0cmluZygpLnNwbGl0KCJUIilbMF07Cn0KCmV4cG9ydCBmdW5jdGlvbiBEYWlseVF1ZXN0aW9uKHsgdXNlciB9OiBEYWlseVF1ZXN0aW9uUHJvcHMpIHsKICBjb25zdCBbcGFydG5lciwgc2V0UGFydG5lcl0gPSB1c2VTdGF0ZTxVc2VyIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgW3F1ZXN0aW9uLCBzZXRRdWVzdGlvbl0gPSB1c2VTdGF0ZTxRdWVzdGlvbiB8IG51bGw+KG51bGwpOwogIGNvbnN0IFtkYXRlS2V5LCBzZXREYXRlS2V5XSA9IHVzZVN0YXRlKCIiKTsKICBjb25zdCBbbXlBbnN3ZXIsIHNldE15QW5zd2VyXSA9IHVzZVN0YXRlKCIiKTsKICBjb25zdCBbdXNlckFuc3dlciwgc2V0VXNlckFuc3dlcl0gPSB1c2VTdGF0ZTxzdHJpbmcgfCBudWxsPihudWxsKTsKICBjb25zdCBbcGFydG5lckFuc3dlciwgc2V0UGFydG5lckFuc3dlcl0gPSB1c2VTdGF0ZTxzdHJpbmcgfCBudWxsPihudWxsKTsKICBjb25zdCBbaXNTdWJtaXR0aW5nLCBzZXRJc1N1Ym1pdHRpbmddID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IFtpc0xvYWRpbmcsIHNldElzTG9hZGluZ10gPSB1c2VTdGF0ZSh0cnVlKTsKCiAgY29uc3QgbG9hZERhdGEgPSB1c2VDYWxsYmFjayhhc3luYyAoZGF0ZTogc3RyaW5nKSA9PiB7CiAgICBzZXRJc0xvYWRpbmcodHJ1ZSk7CiAgICB0cnkgewogICAgICBjb25zdCBkYXRhID0gYXdhaXQgZ2V0QW5zd2Vyc0ZvckRhdGUodXNlci5pZCwgZGF0ZSk7CiAgICAgIHNldFF1ZXN0aW9uKGRhdGEucXVlc3Rpb24pOwogICAgICBzZXRVc2VyQW5zd2VyKGRhdGEudXNlckFuc3dlcik7CiAgICAgIHNldFBhcnRuZXJBbnN3ZXIoZGF0YS5wYXJ0bmVyQW5zd2VyKTsKICAgICAgaWYgKGRhdGEudXNlckFuc3dlcikgewogICAgICAgIHNldE15QW5zd2VyKGRhdGEudXNlckFuc3dlcik7CiAgICAgIH0KICAgIH0gZmluYWxseSB7CiAgICAgIHNldElzTG9hZGluZyhmYWxzZSk7CiAgICB9CiAgfSwgW3VzZXIuaWRdKTsKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGNvbnN0IHRvZGF5ID0gbmV3IERhdGUoKTsKICAgIGNvbnN0IGtleSA9IGZvcm1hdERhdGVLZXkodG9kYXkpOwogICAgc2V0RGF0ZUtleShrZXkpOwogICAgCiAgICAvLyBMb2FkIHBhcnRuZXIgaW5mbwogICAgZ2V0Q291cGxlU3RhdHVzKHVzZXIuaWQpLnRoZW4oc3RhdHVzID0+IHsKICAgICAgaWYgKHN0YXR1cz8ucGFydG5lcikgewogICAgICAgIHNldFBhcnRuZXIoc3RhdHVzLnBhcnRuZXIpOwogICAgICB9CiAgICB9KTsKICB9LCBbdXNlci5pZF0pOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgaWYgKGRhdGVLZXkpIHsKICAgICAgbG9hZERhdGEoZGF0ZUtleSk7CiAgICB9CiAgfSwgW2RhdGVLZXksIGxvYWREYXRhXSk7CgogIC8vIFBvbGwgZm9yIHBhcnRuZXIncyBhbnN3ZXIgZXZlcnkgMTAgc2Vjb25kcyBpZiB3ZSd2ZSBhbnN3ZXJlZCBidXQgcGFydG5lciBoYXNuJ3QKICB1c2VFZmZlY3QoKCkgPT4gewogICAgaWYgKHVzZXJBbnN3ZXIgJiYgIXBhcnRuZXJBbnN3ZXIgJiYgZGF0ZUtleSkgewogICAgICBjb25zdCBpbnRlcnZhbCA9IHNldEludGVydmFsKCgpID0+IHsKICAgICAgICBsb2FkRGF0YShkYXRlS2V5KTsKICAgICAgfSwgMTAwMDApOwogICAgICByZXR1cm4gKCkgPT4gY2xlYXJJbnRlcnZhbChpbnRlcnZhbCk7CiAgICB9CiAgfSwgW3VzZXJBbnN3ZXIsIHBhcnRuZXJBbnN3ZXIsIGRhdGVLZXksIGxvYWREYXRhXSk7CgogIGNvbnN0IGhhbmRsZVN1Ym1pdCA9IGFzeW5jIChlOiBSZWFjdC5Gb3JtRXZlbnQpID0+IHsKICAgIGUucHJldmVudERlZmF1bHQoKTsKICAgIGlmICghbXlBbnN3ZXIudHJpbSgpKSByZXR1cm47CiAgICAKICAgIHNldElzU3VibWl0dGluZyh0cnVlKTsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IHNhdmVBbnN3ZXIodXNlci5pZCwgZGF0ZUtleSwgbXlBbnN3ZXIpOwogICAgICBpZiAoISgiZXJyb3IiIGluIHJlc3VsdCkpIHsKICAgICAgICBhd2FpdCBsb2FkRGF0YShkYXRlS2V5KTsKICAgICAgfQogICAgfSBmaW5hbGx5IHsKICAgICAgc2V0SXNTdWJtaXR0aW5nKGZhbHNlKTsKICAgIH0KICB9OwoKICBjb25zdCBib3RoQW5zd2VyZWQgPSB1c2VyQW5zd2VyICYmIHBhcnRuZXJBbnN3ZXI7CgogIGlmIChpc0xvYWRpbmcpIHsKICAgIHJldHVybiAoCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJwLTQgcGItMjQiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtYXgtdy1sZyBteC1hdXRvIHRleHQtY2VudGVyIHB0LTIwIj4KICAgICAgICAgIDxIZWFydEljb24gY2xhc3NOYW1lPSJ3LTEyIGgtMTIgdGV4dC1wcmltYXJ5IG14LWF1dG8gYW5pbWF0ZS1wdWxzZSIgLz4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIG10LTQiPkNhcnJlZ2FuZG8uLi48L3A+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgKTsKICB9CgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0icC00IHBiLTI0Ij4KICAgICAgPGRpdiBjbGFzc05hbWU9Im1heC13LWxnIG14LWF1dG8iPgogICAgICAgIHsvKiBDb3VwbGUgSGVhZGVyICovfQogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LWNlbnRlciBtYi04IHB0LTQiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGdhcC00IG1iLTIiPgogICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtbGcgZm9udC1tZWRpdW0gdGV4dC1mb3JlZ3JvdW5kIj57dXNlci5uYW1lfTwvc3Bhbj4KICAgICAgICAgICAgPEhlYXJ0SWNvbiBjbGFzc05hbWU9InctNiBoLTYgdGV4dC1wcmltYXJ5IGFuaW1hdGUtcHVsc2UiIC8+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1sZyBmb250LW1lZGl1bSB0ZXh0LWZvcmVncm91bmQiPntwYXJ0bmVyPy5uYW1lIHx8ICIuLi4ifTwvc3Bhbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIHtuZXcgRGF0ZSgpLnRvTG9jYWxlRGF0ZVN0cmluZygncHQtQlInLCB7IAogICAgICAgICAgICAgIHdlZWtkYXk6ICdsb25nJywgCiAgICAgICAgICAgICAgZGF5OiAnbnVtZXJpYycsIAogICAgICAgICAgICAgIG1vbnRoOiAnbG9uZycgCiAgICAgICAgICAgIH0pfQogICAgICAgICAgPC9wPgogICAgICAgIDwvZGl2PgoKICAgICAgICB7LyogVG9kYXkncyBRdWVzdGlvbiAqL30KICAgICAgICA8Q2FyZCBjbGFzc05hbWU9ImJvcmRlci0wIHNoYWRvdy14bCBtYi02IG92ZXJmbG93LWhpZGRlbiI+CiAgICAgICAgICA8Q2FyZEhlYWRlciBjbGFzc05hbWU9ImJnLXByaW1hcnkvMTAgdGV4dC1jZW50ZXIgcHktNiI+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZXN0IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBtYi0yIj4KICAgICAgICAgICAgICBQZXJndW50YSBkbyBEaWEKICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJmb250LXNlcmlmIHRleHQtMnhsIHRleHQtZm9yZWdyb3VuZCBsZWFkaW5nLXJlbGF4ZWQgdGV4dC1iYWxhbmNlIj4KICAgICAgICAgICAgICB7cXVlc3Rpb24/LnRleHQgfHwgIkNhcnJlZ2FuZG8gcGVyZ3VudGEuLi4ifQogICAgICAgICAgICA8L2gyPgogICAgICAgICAgICB7cXVlc3Rpb24/LmNhdGVnb3J5ICYmICgKICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIG10LTIgdXBwZXJjYXNlIHRyYWNraW5nLXdpZGUiPgogICAgICAgICAgICAgICAge3F1ZXN0aW9uLmNhdGVnb3J5fQogICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgKX0KICAgICAgICAgIDwvQ2FyZEhlYWRlcj4KICAgICAgICAgIDxDYXJkQ29udGVudCBjbGFzc05hbWU9InB0LTYiPgogICAgICAgICAgICA8Zm9ybSBvblN1Ym1pdD17aGFuZGxlU3VibWl0fT4KICAgICAgICAgICAgICA8VGV4dGFyZWEKICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyPSJFc2NyZXZhIHN1YSByZXNwb3N0YSBhcXVpLi4uIgogICAgICAgICAgICAgICAgdmFsdWU9e215QW5zd2VyfQogICAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRNeUFuc3dlcihlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICAgICAgICBjbGFzc05hbWU9Im1pbi1oLTMyIGJnLXNlY29uZGFyeS8zMCBib3JkZXItMCByZXNpemUtbm9uZSB0ZXh0LWJhc2UiCiAgICAgICAgICAgICAgICBkaXNhYmxlZD17ISF1c2VyQW5zd2VyfQogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgeyF1c2VyQW5zd2VyICYmICgKICAgICAgICAgICAgICAgIDxCdXR0b24gCiAgICAgICAgICAgICAgICAgIHR5cGU9InN1Ym1pdCIgCiAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIG10LTQiIAogICAgICAgICAgICAgICAgICBzaXplPSJsZyIKICAgICAgICAgICAgICAgICAgZGlzYWJsZWQ9e2lzU3VibWl0dGluZyB8fCAhbXlBbnN3ZXIudHJpbSgpfQogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICB7aXNTdWJtaXR0aW5nID8gIlNhbHZhbmRvLi4uIiA6ICJFbnZpYXIgUmVzcG9zdGEifQogICAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICB7dXNlckFuc3dlciAmJiAhcGFydG5lckFuc3dlciAmJiAoCiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtNCBwLTQgYmctYWNjZW50LzIwIHJvdW5kZWQtbGcgdGV4dC1jZW50ZXIiPgogICAgICAgICAgICAgICAgICA8SGVhcnRJY29uIGNsYXNzTmFtZT0idy04IGgtOCB0ZXh0LWFjY2VudCBteC1hdXRvIG1iLTIgYW5pbWF0ZS1wdWxzZSIgLz4KICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICAgICAgUmVzcG9zdGEgZW52aWFkYSEgQWd1YXJkYW5kbyB7cGFydG5lcj8ubmFtZSB8fCAic2V1IGFtb3IifSByZXNwb25kZXIuLi4KICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgPC9mb3JtPgogICAgICAgICAgPC9DYXJkQ29udGVudD4KICAgICAgICA8L0NhcmQ+CgogICAgICAgIHsvKiBCb3RoIEFuc3dlcnMgKi99CiAgICAgICAge2JvdGhBbnN3ZXJlZCAmJiAoCiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS00Ij4KICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT0iZm9udC1zZXJpZiB0ZXh0LXhsIHRleHQtY2VudGVyIHRleHQtZm9yZWdyb3VuZCBtYi00Ij4KICAgICAgICAgICAgICBTdWFzIFJlc3Bvc3RhcwogICAgICAgICAgICA8L2gzPgogICAgICAgICAgICAKICAgICAgICAgICAgPENhcmQgY2xhc3NOYW1lPSJib3JkZXItMCBzaGFkb3ctbGcgYmctY2FyZCI+CiAgICAgICAgICAgICAgPENhcmRDb250ZW50IGNsYXNzTmFtZT0icHQtNiI+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgbWItMyI+CiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ3LTggaC04IHJvdW5kZWQtZnVsbCBiZy1wcmltYXJ5LzIwIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIj4KICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtc20gZm9udC1zZW1pYm9sZCB0ZXh0LXByaW1hcnkiPgogICAgICAgICAgICAgICAgICAgICAge3VzZXIubmFtZS5jaGFyQXQoMCkudG9VcHBlckNhc2UoKX0KICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZvbnQtbWVkaXVtIHRleHQtZm9yZWdyb3VuZCI+e3VzZXIubmFtZX08L3NwYW4+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1mb3JlZ3JvdW5kIGxlYWRpbmctcmVsYXhlZCBwbC0xMCI+CiAgICAgICAgICAgICAgICAgIHt1c2VyQW5zd2VyfQogICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgIDwvQ2FyZENvbnRlbnQ+CiAgICAgICAgICAgIDwvQ2FyZD4KCiAgICAgICAgICAgIDxDYXJkIGNsYXNzTmFtZT0iYm9yZGVyLTAgc2hhZG93LWxnIGJnLWNhcmQiPgogICAgICAgICAgICAgIDxDYXJkQ29udGVudCBjbGFzc05hbWU9InB0LTYiPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIG1iLTMiPgogICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy04IGgtOCByb3VuZGVkLWZ1bGwgYmctYWNjZW50LzMwIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIj4KICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtc20gZm9udC1zZW1pYm9sZCB0ZXh0LWFjY2VudCI+CiAgICAgICAgICAgICAgICAgICAgICB7cGFydG5lcj8ubmFtZT8uY2hhckF0KDApLnRvVXBwZXJDYXNlKCkgfHwgIj8ifQogICAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZm9udC1tZWRpdW0gdGV4dC1mb3JlZ3JvdW5kIj57cGFydG5lcj8ubmFtZSB8fCAiUGFyY2Vpcm8oYSkifTwvc3Bhbj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LWZvcmVncm91bmQgbGVhZGluZy1yZWxheGVkIHBsLTEwIj4KICAgICAgICAgICAgICAgICAge3BhcnRuZXJBbnN3ZXJ9CiAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgPC9DYXJkQ29udGVudD4KICAgICAgICAgICAgPC9DYXJkPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgKX0KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICApOwp9Cg=="}
+"use client";
+
+import { useState, useEffect, useCallback } from "react";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader } from "@/components/ui/card";
+import { Textarea } from "@/components/ui/textarea";
+import { HeartIcon } from "@/components/icons";
+import { User, Question, getCoupleStatus, saveAnswer, getAnswersForDate } from "@/lib/storage";
+
+interface DailyQuestionProps {
+  user: User;
+}
+
+function formatDateKey(date: Date): string {
+  return date.toISOString().split("T")[0];
+}
+
+export function DailyQuestion({ user }: DailyQuestionProps) {
+  const [partner, setPartner] = useState<User | null>(null);
+  const [question, setQuestion] = useState<Question | null>(null);
+  const [dateKey, setDateKey] = useState("");
+  const [myAnswer, setMyAnswer] = useState("");
+  const [userAnswer, setUserAnswer] = useState<string | null>(null);
+  const [partnerAnswer, setPartnerAnswer] = useState<string | null>(null);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
+
+  const loadData = useCallback(async (date: string) => {
+    setIsLoading(true);
+    try {
+      const data = await getAnswersForDate(user.id, date);
+      setQuestion(data.question);
+      setUserAnswer(data.userAnswer);
+      setPartnerAnswer(data.partnerAnswer);
+      if (data.userAnswer) {
+        setMyAnswer(data.userAnswer);
+      }
+    } finally {
+      setIsLoading(false);
+    }
+  }, [user.id]);
+
+  useEffect(() => {
+    const today = new Date();
+    const key = formatDateKey(today);
+    setDateKey(key);
+    
+    // Load partner info
+    getCoupleStatus(user.id).then(status => {
+      if (status?.partner) {
+        setPartner(status.partner);
+      }
+    });
+  }, [user.id]);
+
+  useEffect(() => {
+    if (dateKey) {
+      loadData(dateKey);
+    }
+  }, [dateKey, loadData]);
+
+  // Poll for partner's answer every 10 seconds if we've answered but partner hasn't
+  useEffect(() => {
+    if (userAnswer && !partnerAnswer && dateKey) {
+      const interval = setInterval(() => {
+        loadData(dateKey);
+      }, 10000);
+      return () => clearInterval(interval);
+    }
+  }, [userAnswer, partnerAnswer, dateKey, loadData]);
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!myAnswer.trim()) return;
+    
+    setIsSubmitting(true);
+    try {
+      const result = await saveAnswer(user.id, dateKey, myAnswer);
+      if (!("error" in result)) {
+        await loadData(dateKey);
+      }
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
+  const bothAnswered = userAnswer && partnerAnswer;
+
+  if (isLoading) {
+    return (
+      <div className="p-4 pb-24">
+        <div className="max-w-lg mx-auto text-center pt-20">
+          <HeartIcon className="w-12 h-12 text-primary mx-auto animate-pulse" />
+          <p className="text-muted-foreground mt-4">Carregando...</p>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="p-4 pb-24">
+      <div className="max-w-lg mx-auto">
+        {/* Couple Header */}
+        <div className="text-center mb-8 pt-4">
+          <div className="flex items-center justify-center gap-4 mb-2">
+            <span className="text-lg font-medium text-foreground">{user.name}</span>
+            <HeartIcon className="w-6 h-6 text-primary animate-pulse" />
+            <span className="text-lg font-medium text-foreground">{partner?.name || "..."}</span>
+          </div>
+          <p className="text-sm text-muted-foreground">
+            {new Date().toLocaleDateString('pt-BR', { 
+              weekday: 'long', 
+              day: 'numeric', 
+              month: 'long' 
+            })}
+          </p>
+        </div>
+
+        {/* Today's Question */}
+        <Card className="border-0 shadow-xl mb-6 overflow-hidden">
+          <CardHeader className="bg-primary/10 text-center py-6">
+            <p className="text-xs uppercase tracking-widest text-muted-foreground mb-2">
+              Pergunta do Dia
+            </p>
+            <h2 className="font-serif text-2xl text-foreground leading-relaxed text-balance">
+              {question?.text || "Carregando pergunta..."}
+            </h2>
+            {question?.category && (
+              <p className="text-xs text-muted-foreground mt-2 uppercase tracking-wide">
+                {question.category}
+              </p>
+            )}
+          </CardHeader>
+          <CardContent className="pt-6">
+            <form onSubmit={handleSubmit}>
+              <Textarea
+                placeholder="Escreva sua resposta aqui..."
+                value={myAnswer}
+                onChange={(e) => setMyAnswer(e.target.value)}
+                className="min-h-32 bg-secondary/30 border-0 resize-none text-base"
+                disabled={!!userAnswer}
+              />
+              {!userAnswer && (
+                <Button 
+                  type="submit" 
+                  className="w-full mt-4" 
+                  size="lg"
+                  disabled={isSubmitting || !myAnswer.trim()}
+                >
+                  {isSubmitting ? "Salvando..." : "Enviar Resposta"}
+                </Button>
+              )}
+              {userAnswer && !partnerAnswer && (
+                <div className="mt-4 p-4 bg-accent/20 rounded-lg text-center">
+                  <HeartIcon className="w-8 h-8 text-accent mx-auto mb-2 animate-pulse" />
+                  <p className="text-sm text-muted-foreground">
+                    Resposta enviada! Aguardando {partner?.name || "seu amor"} responder...
+                  </p>
+                </div>
+              )}
+            </form>
+          </CardContent>
+        </Card>
+
+        {/* Both Answers */}
+        {bothAnswered && (
+          <div className="space-y-4">
+            <h3 className="font-serif text-xl text-center text-foreground mb-4">
+              Suas Respostas
+            </h3>
+            
+            <Card className="border-0 shadow-lg bg-card">
+              <CardContent className="pt-6">
+                <div className="flex items-center gap-2 mb-3">
+                  <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center">
+                    <span className="text-sm font-semibold text-primary">
+                      {user.name.charAt(0).toUpperCase()}
+                    </span>
+                  </div>
+                  <span className="font-medium text-foreground">{user.name}</span>
+                </div>
+                <p className="text-foreground leading-relaxed pl-10">
+                  {userAnswer}
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-0 shadow-lg bg-card">
+              <CardContent className="pt-6">
+                <div className="flex items-center gap-2 mb-3">
+                  <div className="w-8 h-8 rounded-full bg-accent/30 flex items-center justify-center">
+                    <span className="text-sm font-semibold text-accent">
+                      {partner?.name?.charAt(0).toUpperCase() || "?"}
+                    </span>
+                  </div>
+                  <span className="font-medium text-foreground">{partner?.name || "Parceiro(a)"}</span>
+                </div>
+                <p className="text-foreground leading-relaxed pl-10">
+                  {partnerAnswer}
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}

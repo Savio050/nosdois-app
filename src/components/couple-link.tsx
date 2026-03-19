@@ -1,1 +1,139 @@
-{"data":"InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBJbnB1dCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9pbnB1dCI7CmltcG9ydCB7IENhcmQsIENhcmRDb250ZW50LCBDYXJkRGVzY3JpcHRpb24sIENhcmRIZWFkZXIsIENhcmRUaXRsZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9jYXJkIjsKaW1wb3J0IHsgRmllbGRHcm91cCwgRmllbGQsIEZpZWxkTGFiZWwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvZmllbGQiOwppbXBvcnQgeyBIZWFydEljb24sIENvcHlJY29uLCBDaGVja0ljb24sIExpbmtJY29uIH0gZnJvbSAiQC9jb21wb25lbnRzL2ljb25zIjsKaW1wb3J0IHsgbGlua1BhcnRuZXIsIFVzZXIgfSBmcm9tICJAL2xpYi9zdG9yYWdlIjsKCmludGVyZmFjZSBDb3VwbGVMaW5rUHJvcHMgewogIHVzZXI6IFVzZXI7CiAgb25MaW5rZWQ6ICh1c2VyOiBVc2VyKSA9PiB2b2lkOwp9CgpleHBvcnQgZnVuY3Rpb24gQ291cGxlTGluayh7IHVzZXIsIG9uTGlua2VkIH06IENvdXBsZUxpbmtQcm9wcykgewogIGNvbnN0IFtwYXJ0bmVyQ29kZSwgc2V0UGFydG5lckNvZGVdID0gdXNlU3RhdGUoIiIpOwogIGNvbnN0IFtlcnJvciwgc2V0RXJyb3JdID0gdXNlU3RhdGUoIiIpOwogIGNvbnN0IFtjb3BpZWQsIHNldENvcGllZF0gPSB1c2VTdGF0ZShmYWxzZSk7CiAgY29uc3QgW2lzTG9hZGluZywgc2V0SXNMb2FkaW5nXSA9IHVzZVN0YXRlKGZhbHNlKTsKCiAgY29uc3QgaGFuZGxlQ29weSA9IGFzeW5jICgpID0+IHsKICAgIGF3YWl0IG5hdmlnYXRvci5jbGlwYm9hcmQud3JpdGVUZXh0KHVzZXIuY291cGxlQ29kZSk7CiAgICBzZXRDb3BpZWQodHJ1ZSk7CiAgICBzZXRUaW1lb3V0KCgpID0+IHNldENvcGllZChmYWxzZSksIDIwMDApOwogIH07CgogIGNvbnN0IGhhbmRsZUxpbmsgPSBhc3luYyAoZTogUmVhY3QuRm9ybUV2ZW50KSA9PiB7CiAgICBlLnByZXZlbnREZWZhdWx0KCk7CiAgICBzZXRFcnJvcigiIik7CiAgICBzZXRJc0xvYWRpbmcodHJ1ZSk7CgogICAgdHJ5IHsKICAgICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgbGlua1BhcnRuZXIodXNlci5pZCwgcGFydG5lckNvZGUudG9VcHBlckNhc2UoKSk7CiAgICAgIGlmICgiZXJyb3IiIGluIHJlc3VsdCkgewogICAgICAgIHNldEVycm9yKHJlc3VsdC5lcnJvcik7CiAgICAgIH0gZWxzZSB7CiAgICAgICAgb25MaW5rZWQocmVzdWx0LnVzZXIpOwogICAgICB9CiAgICB9IGZpbmFsbHkgewogICAgICBzZXRJc0xvYWRpbmcoZmFsc2UpOwogICAgfQogIH07CgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0ibWluLWgtc2NyZWVuIGZsZXggZmxleC1jb2wgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHAtNCBiZy1iYWNrZ3JvdW5kIj4KICAgICAgPGRpdiBjbGFzc05hbWU9InctZnVsbCBtYXgtdy1tZCI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtY2VudGVyIG1iLTgiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGdhcC0yIG1iLTQiPgogICAgICAgICAgICA8SGVhcnRJY29uIGNsYXNzTmFtZT0idy0xMiBoLTEyIHRleHQtcHJpbWFyeSBhbmltYXRlLXB1bHNlIiAvPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8aDEgY2xhc3NOYW1lPSJmb250LXNlcmlmIHRleHQtNHhsIGZvbnQtYm9sZCB0ZXh0LWZvcmVncm91bmQgbWItMiI+CiAgICAgICAgICAgIE9sYSwge3VzZXIubmFtZX0hCiAgICAgICAgICA8L2gxPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICBWYW1vcyBjb25lY3RhciB2b2NlIGNvbSBzZXUgYW1vcgogICAgICAgICAgPC9wPgogICAgICAgIDwvZGl2PgoKICAgICAgICA8Q2FyZCBjbGFzc05hbWU9ImJvcmRlci0wIHNoYWRvdy14bCBtYi02Ij4KICAgICAgICAgIDxDYXJkSGVhZGVyIGNsYXNzTmFtZT0idGV4dC1jZW50ZXIgcGItNCI+CiAgICAgICAgICAgIDxDYXJkVGl0bGUgY2xhc3NOYW1lPSJmb250LXNlcmlmIHRleHQteGwgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICAgIDxMaW5rSWNvbiBjbGFzc05hbWU9InctNSBoLTUiIC8+CiAgICAgICAgICAgICAgU2V1IENvZGlnbyBkZSBDYXNhbAogICAgICAgICAgICA8L0NhcmRUaXRsZT4KICAgICAgICAgICAgPENhcmREZXNjcmlwdGlvbj4KICAgICAgICAgICAgICBDb21wYXJ0aWxoZSBlc3RlIGNvZGlnbyBjb20gc2V1IGFtb3IgcGFyYSBzZSBjb25lY3RhcmVtCiAgICAgICAgICAgIDwvQ2FyZERlc2NyaXB0aW9uPgogICAgICAgICAgPC9DYXJkSGVhZGVyPgogICAgICAgICAgPENhcmRDb250ZW50PgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4LTEgYmctc2Vjb25kYXJ5IHJvdW5kZWQtbGcgcC00IHRleHQtY2VudGVyIj4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZm9udC1tb25vIHRleHQtMnhsIGZvbnQtYm9sZCB0cmFja2luZy13aWRlc3QgdGV4dC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgICAge3VzZXIuY291cGxlQ29kZX0KICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8QnV0dG9uIAogICAgICAgICAgICAgICAgdmFyaWFudD0ib3V0bGluZSIgCiAgICAgICAgICAgICAgICBzaXplPSJpY29uIiAKICAgICAgICAgICAgICAgIG9uQ2xpY2s9e2hhbmRsZUNvcHl9CiAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImgtMTQgdy0xNCIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICB7Y29waWVkID8gKAogICAgICAgICAgICAgICAgICA8Q2hlY2tJY29uIGNsYXNzTmFtZT0idy01IGgtNSB0ZXh0LWdyZWVuLTYwMCIgLz4KICAgICAgICAgICAgICAgICkgOiAoCiAgICAgICAgICAgICAgICAgIDxDb3B5SWNvbiBjbGFzc05hbWU9InctNSBoLTUiIC8+CiAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvQ2FyZENvbnRlbnQ+CiAgICAgICAgPC9DYXJkPgoKICAgICAgICA8Q2FyZCBjbGFzc05hbWU9ImJvcmRlci0wIHNoYWRvdy14bCI+CiAgICAgICAgICA8Q2FyZEhlYWRlciBjbGFzc05hbWU9InRleHQtY2VudGVyIHBiLTQiPgogICAgICAgICAgICA8Q2FyZFRpdGxlIGNsYXNzTmFtZT0iZm9udC1zZXJpZiB0ZXh0LXhsIj4KICAgICAgICAgICAgICBDb25lY3RhciBjb20gUGFyY2Vpcm8oYSkKICAgICAgICAgICAgPC9DYXJkVGl0bGU+CiAgICAgICAgICAgIDxDYXJkRGVzY3JpcHRpb24+CiAgICAgICAgICAgICAgT3UgaW5zaXJhIG8gY29kaWdvIHF1ZSBzZXUgYW1vciBjb21wYXJ0aWxob3UKICAgICAgICAgICAgPC9DYXJkRGVzY3JpcHRpb24+CiAgICAgICAgICA8L0NhcmRIZWFkZXI+CiAgICAgICAgICA8Q2FyZENvbnRlbnQ+CiAgICAgICAgICAgIDxmb3JtIG9uU3VibWl0PXtoYW5kbGVMaW5rfT4KICAgICAgICAgICAgICA8RmllbGRHcm91cD4KICAgICAgICAgICAgICAgIDxGaWVsZD4KICAgICAgICAgICAgICAgICAgPEZpZWxkTGFiZWwgaHRtbEZvcj0icGFydG5lckNvZGUiPkNvZGlnbyBkbyBQYXJjZWlybyhhKTwvRmllbGRMYWJlbD4KICAgICAgICAgICAgICAgICAgPElucHV0CiAgICAgICAgICAgICAgICAgICAgaWQ9InBhcnRuZXJDb2RlIgogICAgICAgICAgICAgICAgICAgIHR5cGU9InRleHQiCiAgICAgICAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9IkV4OiBBQkMxMjMiCiAgICAgICAgICAgICAgICAgICAgdmFsdWU9e3BhcnRuZXJDb2RlfQogICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0UGFydG5lckNvZGUoZS50YXJnZXQudmFsdWUudG9VcHBlckNhc2UoKSl9CiAgICAgICAgICAgICAgICAgICAgbWF4TGVuZ3RoPXs2fQogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iYmctc2Vjb25kYXJ5LzUwIHRleHQtY2VudGVyIGZvbnQtbW9ubyB0ZXh0LWxnIHRyYWNraW5nLXdpZGVzdCB1cHBlcmNhc2UiCiAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICA8L0ZpZWxkPgogICAgICAgICAgICAgIDwvRmllbGRHcm91cD4KCiAgICAgICAgICAgICAge2Vycm9yICYmICgKICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LWRlc3RydWN0aXZlIHRleHQtY2VudGVyIGJnLWRlc3RydWN0aXZlLzEwIHB5LTIgcm91bmRlZC1sZyBtdC00Ij4KICAgICAgICAgICAgICAgICAge2Vycm9yfQogICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICl9CgogICAgICAgICAgICAgIDxCdXR0b24gCiAgICAgICAgICAgICAgICB0eXBlPSJzdWJtaXQiIAogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgbXQtNCIgCiAgICAgICAgICAgICAgICBzaXplPSJsZyIKICAgICAgICAgICAgICAgIGRpc2FibGVkPXtpc0xvYWRpbmcgfHwgcGFydG5lckNvZGUubGVuZ3RoIDwgNn0KICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICB7aXNMb2FkaW5nID8gIkNvbmVjdGFuZG8uLi4iIDogIkNvbmVjdGFyIn0KICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgPC9mb3JtPgogICAgICAgICAgPC9DYXJkQ29udGVudD4KICAgICAgICA8L0NhcmQ+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgKTsKfQo="}
+"use client";
+
+import { useState } from "react";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { FieldGroup, Field, FieldLabel } from "@/components/ui/field";
+import { HeartIcon, CopyIcon, CheckIcon, LinkIcon } from "@/components/icons";
+import { linkPartner, User } from "@/lib/storage";
+
+interface CoupleLinkProps {
+  user: User;
+  onLinked: (user: User) => void;
+}
+
+export function CoupleLink({ user, onLinked }: CoupleLinkProps) {
+  const [partnerCode, setPartnerCode] = useState("");
+  const [error, setError] = useState("");
+  const [copied, setCopied] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
+
+  const handleCopy = async () => {
+    await navigator.clipboard.writeText(user.coupleCode);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
+
+  const handleLink = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setError("");
+    setIsLoading(true);
+
+    try {
+      const result = await linkPartner(user.id, partnerCode.toUpperCase());
+      if ("error" in result) {
+        setError(result.error);
+      } else {
+        onLinked(result.user);
+      }
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  return (
+    <div className="min-h-screen flex flex-col items-center justify-center p-4 bg-background">
+      <div className="w-full max-w-md">
+        <div className="text-center mb-8">
+          <div className="flex items-center justify-center gap-2 mb-4">
+            <HeartIcon className="w-12 h-12 text-primary animate-pulse" />
+          </div>
+          <h1 className="font-serif text-4xl font-bold text-foreground mb-2">
+            Ola, {user.name}!
+          </h1>
+          <p className="text-muted-foreground">
+            Vamos conectar voce com seu amor
+          </p>
+        </div>
+
+        <Card className="border-0 shadow-xl mb-6">
+          <CardHeader className="text-center pb-4">
+            <CardTitle className="font-serif text-xl flex items-center justify-center gap-2">
+              <LinkIcon className="w-5 h-5" />
+              Seu Codigo de Casal
+            </CardTitle>
+            <CardDescription>
+              Compartilhe este codigo com seu amor para se conectarem
+            </CardDescription>
+          </CardHeader>
+          <CardContent>
+            <div className="flex items-center gap-2">
+              <div className="flex-1 bg-secondary rounded-lg p-4 text-center">
+                <span className="font-mono text-2xl font-bold tracking-widest text-foreground">
+                  {user.coupleCode}
+                </span>
+              </div>
+              <Button 
+                variant="outline" 
+                size="icon" 
+                onClick={handleCopy}
+                className="h-14 w-14"
+              >
+                {copied ? (
+                  <CheckIcon className="w-5 h-5 text-green-600" />
+                ) : (
+                  <CopyIcon className="w-5 h-5" />
+                )}
+              </Button>
+            </div>
+          </CardContent>
+        </Card>
+
+        <Card className="border-0 shadow-xl">
+          <CardHeader className="text-center pb-4">
+            <CardTitle className="font-serif text-xl">
+              Conectar com Parceiro(a)
+            </CardTitle>
+            <CardDescription>
+              Ou insira o codigo que seu amor compartilhou
+            </CardDescription>
+          </CardHeader>
+          <CardContent>
+            <form onSubmit={handleLink}>
+              <FieldGroup>
+                <Field>
+                  <FieldLabel htmlFor="partnerCode">Codigo do Parceiro(a)</FieldLabel>
+                  <Input
+                    id="partnerCode"
+                    type="text"
+                    placeholder="Ex: ABC123"
+                    value={partnerCode}
+                    onChange={(e) => setPartnerCode(e.target.value.toUpperCase())}
+                    maxLength={6}
+                    className="bg-secondary/50 text-center font-mono text-lg tracking-widest uppercase"
+                  />
+                </Field>
+              </FieldGroup>
+
+              {error && (
+                <p className="text-sm text-destructive text-center bg-destructive/10 py-2 rounded-lg mt-4">
+                  {error}
+                </p>
+              )}
+
+              <Button 
+                type="submit" 
+                className="w-full mt-4" 
+                size="lg"
+                disabled={isLoading || partnerCode.length < 6}
+              >
+                {isLoading ? "Conectando..." : "Conectar"}
+              </Button>
+            </form>
+          </CardContent>
+        </Card>
+      </div>
+    </div>
+  );
+}

@@ -1,1 +1,68 @@
-{"data":"aW1wb3J0IHsgTmV4dFJlc3BvbnNlIH0gZnJvbSAibmV4dC9zZXJ2ZXIiOwppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICJAL2xpYi9zdXBhYmFzZS9zZXJ2ZXIiOwoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIEdFVChyZXF1ZXN0OiBSZXF1ZXN0KSB7CiAgdHJ5IHsKICAgIGNvbnN0IHsgc2VhcmNoUGFyYW1zIH0gPSBuZXcgVVJMKHJlcXVlc3QudXJsKTsKICAgIGNvbnN0IHVzZXJJZCA9IHNlYXJjaFBhcmFtcy5nZXQoInVzZXJJZCIpOwoKICAgIGlmICghdXNlcklkKSB7CiAgICAgIHJldHVybiBOZXh0UmVzcG9uc2UuanNvbigKICAgICAgICB7IGVycm9yOiAiSUQgZG8gdXN1w6FyaW8gw6kgb2JyaWdhdMOzcmlvIiB9LAogICAgICAgIHsgc3RhdHVzOiA0MDAgfQogICAgICApOwogICAgfQoKICAgIGNvbnN0IHN1cGFiYXNlID0gYXdhaXQgY3JlYXRlQ2xpZW50KCk7CgogICAgLy8gRmluZCBjdXJyZW50IHVzZXIKICAgIGNvbnN0IHsgZGF0YTogdXNlciwgZXJyb3I6IHVzZXJFcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UKICAgICAgLmZyb20oInVzZXJzIikKICAgICAgLnNlbGVjdCgiKiIpCiAgICAgIC5lcSgiaWQiLCB1c2VySWQpCiAgICAgIC5zaW5nbGUoKTsKCiAgICBpZiAodXNlckVycm9yIHx8ICF1c2VyKSB7CiAgICAgIHJldHVybiBOZXh0UmVzcG9uc2UuanNvbigKICAgICAgICB7IGVycm9yOiAiVXN1w6FyaW8gbsOjbyBlbmNvbnRyYWRvIiB9LAogICAgICAgIHsgc3RhdHVzOiA0MDQgfQogICAgICApOwogICAgfQoKICAgIC8vIEZpbmQgcGFydG5lciBpZiBleGlzdHMKICAgIGxldCBwYXJ0bmVyID0gbnVsbDsKICAgIGlmICh1c2VyLnBhcnRuZXJfaWQpIHsKICAgICAgY29uc3QgeyBkYXRhOiBwYXJ0bmVyRGF0YSB9ID0gYXdhaXQgc3VwYWJhc2UKICAgICAgICAuZnJvbSgidXNlcnMiKQogICAgICAgIC5zZWxlY3QoImlkLCBuYW1lLCBlbWFpbCwgY291cGxlX2NvZGUiKQogICAgICAgIC5lcSgiaWQiLCB1c2VyLnBhcnRuZXJfaWQpCiAgICAgICAgLnNpbmdsZSgpOwoKICAgICAgaWYgKHBhcnRuZXJEYXRhKSB7CiAgICAgICAgcGFydG5lciA9IHsKICAgICAgICAgIGlkOiBwYXJ0bmVyRGF0YS5pZCwKICAgICAgICAgIG5hbWU6IHBhcnRuZXJEYXRhLm5hbWUsCiAgICAgICAgICBlbWFpbDogcGFydG5lckRhdGEuZW1haWwsCiAgICAgICAgICBjb3VwbGVDb2RlOiBwYXJ0bmVyRGF0YS5jb3VwbGVfY29kZSwKICAgICAgICB9OwogICAgICB9CiAgICB9CgogICAgcmV0dXJuIE5leHRSZXNwb25zZS5qc29uKHsKICAgICAgdXNlcjogewogICAgICAgIGlkOiB1c2VyLmlkLAogICAgICAgIGVtYWlsOiB1c2VyLmVtYWlsLAogICAgICAgIG5hbWU6IHVzZXIubmFtZSwKICAgICAgICBjb3VwbGVDb2RlOiB1c2VyLmNvdXBsZV9jb2RlLAogICAgICAgIHBhcnRuZXJJZDogdXNlci5wYXJ0bmVyX2lkLAogICAgICB9LAogICAgICBwYXJ0bmVyLAogICAgfSk7CiAgfSBjYXRjaCAoZXJyb3IpIHsKICAgIGNvbnNvbGUuZXJyb3IoIlN0YXR1cyBlcnJvcjoiLCBlcnJvcik7CiAgICByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oCiAgICAgIHsgZXJyb3I6ICJFcnJvIGFvIGJ1c2NhciBzdGF0dXMgZG8gY2FzYWwiIH0sCiAgICAgIHsgc3RhdHVzOiA1MDAgfQogICAgKTsKICB9Cn0K"}
+import { NextResponse } from "next/server";
+import { createClient } from "@/lib/supabase/server";
+
+export async function GET(request: Request) {
+  try {
+    const { searchParams } = new URL(request.url);
+    const userId = searchParams.get("userId");
+
+    if (!userId) {
+      return NextResponse.json(
+        { error: "ID do usuário é obrigatório" },
+        { status: 400 }
+      );
+    }
+
+    const supabase = await createClient();
+
+    // Find current user
+    const { data: user, error: userError } = await supabase
+      .from("users")
+      .select("*")
+      .eq("id", userId)
+      .single();
+
+    if (userError || !user) {
+      return NextResponse.json(
+        { error: "Usuário não encontrado" },
+        { status: 404 }
+      );
+    }
+
+    // Find partner if exists
+    let partner = null;
+    if (user.partner_id) {
+      const { data: partnerData } = await supabase
+        .from("users")
+        .select("id, name, email, couple_code")
+        .eq("id", user.partner_id)
+        .single();
+
+      if (partnerData) {
+        partner = {
+          id: partnerData.id,
+          name: partnerData.name,
+          email: partnerData.email,
+          coupleCode: partnerData.couple_code,
+        };
+      }
+    }
+
+    return NextResponse.json({
+      user: {
+        id: user.id,
+        email: user.email,
+        name: user.name,
+        coupleCode: user.couple_code,
+        partnerId: user.partner_id,
+      },
+      partner,
+    });
+  } catch (error) {
+    console.error("Status error:", error);
+    return NextResponse.json(
+      { error: "Erro ao buscar status do casal" },
+      { status: 500 }
+    );
+  }
+}

@@ -1,1 +1,166 @@
-{"data":"aW1wb3J0IHsgTmV4dFJlc3BvbnNlIH0gZnJvbSAibmV4dC9zZXJ2ZXIiOwppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICJAL2xpYi9zdXBhYmFzZS9zZXJ2ZXIiOwoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIEdFVChyZXF1ZXN0OiBSZXF1ZXN0KSB7CiAgdHJ5IHsKICAgIGNvbnN0IHsgc2VhcmNoUGFyYW1zIH0gPSBuZXcgVVJMKHJlcXVlc3QudXJsKTsKICAgIGNvbnN0IHVzZXJJZCA9IHNlYXJjaFBhcmFtcy5nZXQoInVzZXJJZCIpOwogICAgY29uc3QgZGF0ZSA9IHNlYXJjaFBhcmFtcy5nZXQoImRhdGUiKTsKCiAgICBpZiAoIXVzZXJJZCkgewogICAgICByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oCiAgICAgICAgeyBlcnJvcjogIklEIGRvIHVzdcOhcmlvIMOpIG9icmlnYXTDs3JpbyIgfSwKICAgICAgICB7IHN0YXR1czogNDAwIH0KICAgICAgKTsKICAgIH0KCiAgICBjb25zdCBzdXBhYmFzZSA9IGF3YWl0IGNyZWF0ZUNsaWVudCgpOwoKICAgIC8vIEZpbmQgdXNlcgogICAgY29uc3QgeyBkYXRhOiB1c2VyLCBlcnJvcjogdXNlckVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZQogICAgICAuZnJvbSgidXNlcnMiKQogICAgICAuc2VsZWN0KCJjb3VwbGVfY29kZSwgcGFydG5lcl9pZCIpCiAgICAgIC5lcSgiaWQiLCB1c2VySWQpCiAgICAgIC5zaW5nbGUoKTsKCiAgICBpZiAodXNlckVycm9yIHx8ICF1c2VyKSB7CiAgICAgIHJldHVybiBOZXh0UmVzcG9uc2UuanNvbigKICAgICAgICB7IGVycm9yOiAiVXN1w6FyaW8gbsOjbyBlbmNvbnRyYWRvIiB9LAogICAgICAgIHsgc3RhdHVzOiA0MDQgfQogICAgICApOwogICAgfQoKICAgIC8vIENoZWNrIGlmIHVzZXIgaGFzIGEgcGFydG5lcgogICAgaWYgKCF1c2VyLnBhcnRuZXJfaWQpIHsKICAgICAgcmV0dXJuIE5leHRSZXNwb25zZS5qc29uKHsKICAgICAgICBxdWVzdGlvbjogbnVsbCwKICAgICAgICB1c2VyQW5zd2VyOiBudWxsLAogICAgICAgIHBhcnRuZXJBbnN3ZXI6IG51bGwsCiAgICAgICAgZGF0ZXNXaXRoQW5zd2VyczogW10sCiAgICAgIH0pOwogICAgfQoKICAgIC8vIElmIGRhdGUgcHJvdmlkZWQsIGdldCBhbnN3ZXJzIGFuZCBxdWVzdGlvbiBmb3IgdGhhdCBkYXRlCiAgICBpZiAoZGF0ZSkgewogICAgICAvLyBHZXQgb3IgY3JlYXRlIHRoZSBkYWlseSBxdWVzdGlvbiBhc3NpZ25tZW50CiAgICAgIGxldCB7IGRhdGE6IGNvdXBsZURhaWx5IH0gPSBhd2FpdCBzdXBhYmFzZQogICAgICAgIC5mcm9tKCJjb3VwbGVfZGFpbHkiKQogICAgICAgIC5zZWxlY3QoInF1ZXN0aW9uX2lkIikKICAgICAgICAuZXEoImNvdXBsZV9jb2RlIiwgdXNlci5jb3VwbGVfY29kZSkKICAgICAgICAuZXEoImFzc2lnbmVkX2RhdGUiLCBkYXRlKQogICAgICAgIC5zaW5nbGUoKTsKCiAgICAgIGlmICghY291cGxlRGFpbHkpIHsKICAgICAgICAvLyBBc3NpZ24gYSByYW5kb20gcXVlc3Rpb24gZm9yIHRoaXMgZGF0ZQogICAgICAgIGNvbnN0IHsgZGF0YTogcXVlc3Rpb25zIH0gPSBhd2FpdCBzdXBhYmFzZQogICAgICAgICAgLmZyb20oImRhaWx5X3F1ZXN0aW9ucyIpCiAgICAgICAgICAuc2VsZWN0KCJpZCIpOwoKICAgICAgICBpZiAoIXF1ZXN0aW9ucyB8fCBxdWVzdGlvbnMubGVuZ3RoID09PSAwKSB7CiAgICAgICAgICByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oCiAgICAgICAgICAgIHsgZXJyb3I6ICJOZW5odW1hIHBlcmd1bnRhIGRpc3BvbsOtdmVsIiB9LAogICAgICAgICAgICB7IHN0YXR1czogNDA0IH0KICAgICAgICAgICk7CiAgICAgICAgfQoKICAgICAgICAvLyBHZXQgYWxyZWFkeSB1c2VkIHF1ZXN0aW9ucwogICAgICAgIGNvbnN0IHsgZGF0YTogdXNlZFF1ZXN0aW9ucyB9ID0gYXdhaXQgc3VwYWJhc2UKICAgICAgICAgIC5mcm9tKCJjb3VwbGVfZGFpbHkiKQogICAgICAgICAgLnNlbGVjdCgicXVlc3Rpb25faWQiKQogICAgICAgICAgLmVxKCJjb3VwbGVfY29kZSIsIHVzZXIuY291cGxlX2NvZGUpOwoKICAgICAgICBjb25zdCB1c2VkSWRzID0gbmV3IFNldCh1c2VkUXVlc3Rpb25zPy5tYXAoKHEpID0+IHEucXVlc3Rpb25faWQpIHx8IFtdKTsKICAgICAgICBjb25zdCBhdmFpbGFibGVRdWVzdGlvbnMgPSBxdWVzdGlvbnMuZmlsdGVyKChxKSA9PiAhdXNlZElkcy5oYXMocS5pZCkpOwogICAgICAgIGNvbnN0IHF1ZXN0aW9uUG9vbCA9CiAgICAgICAgICBhdmFpbGFibGVRdWVzdGlvbnMubGVuZ3RoID4gMCA/IGF2YWlsYWJsZVF1ZXN0aW9ucyA6IHF1ZXN0aW9uczsKICAgICAgICBjb25zdCByYW5kb21RdWVzdGlvbiA9CiAgICAgICAgICBxdWVzdGlvblBvb2xbTWF0aC5mbG9vcihNYXRoLnJhbmRvbSgpICogcXVlc3Rpb25Qb29sLmxlbmd0aCldOwoKICAgICAgICBjb25zdCB7IGRhdGE6IG5ld0NvdXBsZURhaWx5LCBlcnJvcjogaW5zZXJ0RXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlCiAgICAgICAgICAuZnJvbSgiY291cGxlX2RhaWx5IikKICAgICAgICAgIC5pbnNlcnQoewogICAgICAgICAgICBjb3VwbGVfY29kZTogdXNlci5jb3VwbGVfY29kZSwKICAgICAgICAgICAgcXVlc3Rpb25faWQ6IHJhbmRvbVF1ZXN0aW9uLmlkLAogICAgICAgICAgICBhc3NpZ25lZF9kYXRlOiBkYXRlLAogICAgICAgICAgfSkKICAgICAgICAgIC5zZWxlY3QoInF1ZXN0aW9uX2lkIikKICAgICAgICAgIC5zaW5nbGUoKTsKCiAgICAgICAgaWYgKGluc2VydEVycm9yKSB7CiAgICAgICAgICBjb25zb2xlLmVycm9yKCJJbnNlcnQgY291cGxlX2RhaWx5IGVycm9yOiIsIGluc2VydEVycm9yKTsKICAgICAgICAgIHJldHVybiBOZXh0UmVzcG9uc2UuanNvbigKICAgICAgICAgICAgeyBlcnJvcjogIkVycm8gYW8gYXRyaWJ1aXIgcGVyZ3VudGEiIH0sCiAgICAgICAgICAgIHsgc3RhdHVzOiA1MDAgfQogICAgICAgICAgKTsKICAgICAgICB9CgogICAgICAgIGNvdXBsZURhaWx5ID0gbmV3Q291cGxlRGFpbHk7CiAgICAgIH0KCiAgICAgIC8vIEdldCB0aGUgcXVlc3Rpb24KICAgICAgY29uc3QgeyBkYXRhOiBxdWVzdGlvbiB9ID0gYXdhaXQgc3VwYWJhc2UKICAgICAgICAuZnJvbSgiZGFpbHlfcXVlc3Rpb25zIikKICAgICAgICAuc2VsZWN0KCJpZCwgcXVlc3Rpb24sIGNhdGVnb3J5IikKICAgICAgICAuZXEoImlkIiwgY291cGxlRGFpbHkhLnF1ZXN0aW9uX2lkKQogICAgICAgIC5zaW5nbGUoKTsKCiAgICAgIC8vIEdldCB1c2VyJ3MgYW5zd2VyCiAgICAgIGNvbnN0IHsgZGF0YTogdXNlckFuc3dlciB9ID0gYXdhaXQgc3VwYWJhc2UKICAgICAgICAuZnJvbSgiYW5zd2VycyIpCiAgICAgICAgLnNlbGVjdCgiYW5zd2VyIikKICAgICAgICAuZXEoInVzZXJfaWQiLCB1c2VySWQpCiAgICAgICAgLmVxKCJhbnN3ZXJfZGF0ZSIsIGRhdGUpCiAgICAgICAgLnNpbmdsZSgpOwoKICAgICAgLy8gR2V0IHBhcnRuZXIncyBhbnN3ZXIKICAgICAgY29uc3QgeyBkYXRhOiBwYXJ0bmVyQW5zd2VyIH0gPSBhd2FpdCBzdXBhYmFzZQogICAgICAgIC5mcm9tKCJhbnN3ZXJzIikKICAgICAgICAuc2VsZWN0KCJhbnN3ZXIiKQogICAgICAgIC5lcSgidXNlcl9pZCIsIHVzZXIucGFydG5lcl9pZCkKICAgICAgICAuZXEoImFuc3dlcl9kYXRlIiwgZGF0ZSkKICAgICAgICAuc2luZ2xlKCk7CgogICAgICByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oewogICAgICAgIHF1ZXN0aW9uOiBxdWVzdGlvbgogICAgICAgICAgPyB7CiAgICAgICAgICAgICAgaWQ6IHF1ZXN0aW9uLmlkLAogICAgICAgICAgICAgIHRleHQ6IHF1ZXN0aW9uLnF1ZXN0aW9uLAogICAgICAgICAgICAgIGNhdGVnb3J5OiBxdWVzdGlvbi5jYXRlZ29yeSwKICAgICAgICAgICAgfQogICAgICAgICAgOiBudWxsLAogICAgICAgIHVzZXJBbnN3ZXI6IHVzZXJBbnN3ZXI/LmFuc3dlciB8fCBudWxsLAogICAgICAgIHBhcnRuZXJBbnN3ZXI6IHBhcnRuZXJBbnN3ZXI/LmFuc3dlciB8fCBudWxsLAogICAgICB9KTsKICAgIH0KCiAgICAvLyBPdGhlcndpc2UgcmV0dXJuIGFsbCBkYXRlcyB3aXRoIGFuc3dlcnMgZm9yIGhpc3RvcnkKICAgIGNvbnN0IHsgZGF0YTogYWxsQ291cGxlRGFpbHkgfSA9IGF3YWl0IHN1cGFiYXNlCiAgICAgIC5mcm9tKCJjb3VwbGVfZGFpbHkiKQogICAgICAuc2VsZWN0KCJhc3NpZ25lZF9kYXRlIikKICAgICAgLmVxKCJjb3VwbGVfY29kZSIsIHVzZXIuY291cGxlX2NvZGUpCiAgICAgIC5vcmRlcigiYXNzaWduZWRfZGF0ZSIsIHsgYXNjZW5kaW5nOiBmYWxzZSB9KTsKCiAgICBjb25zdCBkYXRlc1dpdGhBbnN3ZXJzOiBzdHJpbmdbXSA9IFtdOwoKICAgIGZvciAoY29uc3QgZGFpbHkgb2YgYWxsQ291cGxlRGFpbHkgfHwgW10pIHsKICAgICAgLy8gQ2hlY2sgaWYgYXQgbGVhc3Qgb25lIHBlcnNvbiBhbnN3ZXJlZAogICAgICBjb25zdCB7IGRhdGE6IGFuc3dlcnMgfSA9IGF3YWl0IHN1cGFiYXNlCiAgICAgICAgLmZyb20oImFuc3dlcnMiKQogICAgICAgIC5zZWxlY3QoImlkIikKICAgICAgICAuZXEoImFuc3dlcl9kYXRlIiwgZGFpbHkuYXNzaWduZWRfZGF0ZSkKICAgICAgICAuaW4oInVzZXJfaWQiLCBbdXNlcklkLCB1c2VyLnBhcnRuZXJfaWRdKTsKCiAgICAgIGlmIChhbnN3ZXJzICYmIGFuc3dlcnMubGVuZ3RoID4gMCkgewogICAgICAgIGRhdGVzV2l0aEFuc3dlcnMucHVzaChkYWlseS5hc3NpZ25lZF9kYXRlKTsKICAgICAgfQogICAgfQoKICAgIHJldHVybiBOZXh0UmVzcG9uc2UuanNvbih7IGRhdGVzV2l0aEFuc3dlcnMgfSk7CiAgfSBjYXRjaCAoZXJyb3IpIHsKICAgIGNvbnNvbGUuZXJyb3IoIkdldCBhbnN3ZXJzIGVycm9yOiIsIGVycm9yKTsKICAgIHJldHVybiBOZXh0UmVzcG9uc2UuanNvbigKICAgICAgeyBlcnJvcjogIkVycm8gYW8gYnVzY2FyIHJlc3Bvc3RhcyIgfSwKICAgICAgeyBzdGF0dXM6IDUwMCB9CiAgICApOwogIH0KfQo="}
+import { NextResponse } from "next/server";
+import { createClient } from "@/lib/supabase/server";
+
+export async function GET(request: Request) {
+  try {
+    const { searchParams } = new URL(request.url);
+    const userId = searchParams.get("userId");
+    const date = searchParams.get("date");
+
+    if (!userId) {
+      return NextResponse.json(
+        { error: "ID do usuário é obrigatório" },
+        { status: 400 }
+      );
+    }
+
+    const supabase = await createClient();
+
+    // Find user
+    const { data: user, error: userError } = await supabase
+      .from("users")
+      .select("couple_code, partner_id")
+      .eq("id", userId)
+      .single();
+
+    if (userError || !user) {
+      return NextResponse.json(
+        { error: "Usuário não encontrado" },
+        { status: 404 }
+      );
+    }
+
+    // Check if user has a partner
+    if (!user.partner_id) {
+      return NextResponse.json({
+        question: null,
+        userAnswer: null,
+        partnerAnswer: null,
+        datesWithAnswers: [],
+      });
+    }
+
+    // If date provided, get answers and question for that date
+    if (date) {
+      // Get or create the daily question assignment
+      let { data: coupleDaily } = await supabase
+        .from("couple_daily")
+        .select("question_id")
+        .eq("couple_code", user.couple_code)
+        .eq("assigned_date", date)
+        .single();
+
+      if (!coupleDaily) {
+        // Assign a random question for this date
+        const { data: questions } = await supabase
+          .from("daily_questions")
+          .select("id");
+
+        if (!questions || questions.length === 0) {
+          return NextResponse.json(
+            { error: "Nenhuma pergunta disponível" },
+            { status: 404 }
+          );
+        }
+
+        // Get already used questions
+        const { data: usedQuestions } = await supabase
+          .from("couple_daily")
+          .select("question_id")
+          .eq("couple_code", user.couple_code);
+
+        const usedIds = new Set(usedQuestions?.map((q) => q.question_id) || []);
+        const availableQuestions = questions.filter((q) => !usedIds.has(q.id));
+        const questionPool =
+          availableQuestions.length > 0 ? availableQuestions : questions;
+        const randomQuestion =
+          questionPool[Math.floor(Math.random() * questionPool.length)];
+
+        const { data: newCoupleDaily, error: insertError } = await supabase
+          .from("couple_daily")
+          .insert({
+            couple_code: user.couple_code,
+            question_id: randomQuestion.id,
+            assigned_date: date,
+          })
+          .select("question_id")
+          .single();
+
+        if (insertError) {
+          console.error("Insert couple_daily error:", insertError);
+          return NextResponse.json(
+            { error: "Erro ao atribuir pergunta" },
+            { status: 500 }
+          );
+        }
+
+        coupleDaily = newCoupleDaily;
+      }
+
+      // Get the question
+      const { data: question } = await supabase
+        .from("daily_questions")
+        .select("id, question, category")
+        .eq("id", coupleDaily!.question_id)
+        .single();
+
+      // Get user's answer
+      const { data: userAnswer } = await supabase
+        .from("answers")
+        .select("answer")
+        .eq("user_id", userId)
+        .eq("answer_date", date)
+        .single();
+
+      // Get partner's answer
+      const { data: partnerAnswer } = await supabase
+        .from("answers")
+        .select("answer")
+        .eq("user_id", user.partner_id)
+        .eq("answer_date", date)
+        .single();
+
+      return NextResponse.json({
+        question: question
+          ? {
+              id: question.id,
+              text: question.question,
+              category: question.category,
+            }
+          : null,
+        userAnswer: userAnswer?.answer || null,
+        partnerAnswer: partnerAnswer?.answer || null,
+      });
+    }
+
+    // Otherwise return all dates with answers for history
+    const { data: allCoupleDaily } = await supabase
+      .from("couple_daily")
+      .select("assigned_date")
+      .eq("couple_code", user.couple_code)
+      .order("assigned_date", { ascending: false });
+
+    const datesWithAnswers: string[] = [];
+
+    for (const daily of allCoupleDaily || []) {
+      // Check if at least one person answered
+      const { data: answers } = await supabase
+        .from("answers")
+        .select("id")
+        .eq("answer_date", daily.assigned_date)
+        .in("user_id", [userId, user.partner_id]);
+
+      if (answers && answers.length > 0) {
+        datesWithAnswers.push(daily.assigned_date);
+      }
+    }
+
+    return NextResponse.json({ datesWithAnswers });
+  } catch (error) {
+    console.error("Get answers error:", error);
+    return NextResponse.json(
+      { error: "Erro ao buscar respostas" },
+      { status: 500 }
+    );
+  }
+}

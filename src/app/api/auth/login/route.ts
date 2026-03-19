@@ -1,1 +1,55 @@
-{"data":"aW1wb3J0IHsgTmV4dFJlc3BvbnNlIH0gZnJvbSAibmV4dC9zZXJ2ZXIiOwppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICJAL2xpYi9zdXBhYmFzZS9zZXJ2ZXIiOwoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIFBPU1QocmVxdWVzdDogUmVxdWVzdCkgewogIHRyeSB7CiAgICBjb25zdCB7IGVtYWlsLCBwYXNzd29yZCB9ID0gYXdhaXQgcmVxdWVzdC5qc29uKCk7CgogICAgaWYgKCFlbWFpbCB8fCAhcGFzc3dvcmQpIHsKICAgICAgcmV0dXJuIE5leHRSZXNwb25zZS5qc29uKAogICAgICAgIHsgZXJyb3I6ICJFbWFpbCBlIHNlbmhhIHPDo28gb2JyaWdhdMOzcmlvcyIgfSwKICAgICAgICB7IHN0YXR1czogNDAwIH0KICAgICAgKTsKICAgIH0KCiAgICBjb25zdCBzdXBhYmFzZSA9IGF3YWl0IGNyZWF0ZUNsaWVudCgpOwoKICAgIC8vIEZpbmQgdXNlciBieSBlbWFpbAogICAgY29uc3QgeyBkYXRhOiB1c2VyLCBlcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UKICAgICAgLmZyb20oInVzZXJzIikKICAgICAgLnNlbGVjdCgiKiIpCiAgICAgIC5lcSgiZW1haWwiLCBlbWFpbCkKICAgICAgLnNpbmdsZSgpOwoKICAgIGlmIChlcnJvciB8fCAhdXNlcikgewogICAgICByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oCiAgICAgICAgeyBlcnJvcjogIkVtYWlsIG91IHNlbmhhIGluY29ycmV0b3MiIH0sCiAgICAgICAgeyBzdGF0dXM6IDQwMSB9CiAgICAgICk7CiAgICB9CgogICAgLy8gQ2hlY2sgcGFzc3dvcmQgKHBsYWluIHRleHQgY29tcGFyaXNvbiAtIGluIHByb2R1Y3Rpb24gdXNlIGJjcnlwdCkKICAgIGlmICh1c2VyLnBhc3N3b3JkX2hhc2ggIT09IHBhc3N3b3JkKSB7CiAgICAgIHJldHVybiBOZXh0UmVzcG9uc2UuanNvbigKICAgICAgICB7IGVycm9yOiAiRW1haWwgb3Ugc2VuaGEgaW5jb3JyZXRvcyIgfSwKICAgICAgICB7IHN0YXR1czogNDAxIH0KICAgICAgKTsKICAgIH0KCiAgICByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oewogICAgICB1c2VyOiB7CiAgICAgICAgaWQ6IHVzZXIuaWQsCiAgICAgICAgZW1haWw6IHVzZXIuZW1haWwsCiAgICAgICAgbmFtZTogdXNlci5uYW1lLAogICAgICAgIGNvdXBsZUNvZGU6IHVzZXIuY291cGxlX2NvZGUsCiAgICAgICAgcGFydG5lcklkOiB1c2VyLnBhcnRuZXJfaWQsCiAgICAgIH0sCiAgICB9KTsKICB9IGNhdGNoIChlcnJvcikgewogICAgY29uc29sZS5lcnJvcigiTG9naW4gZXJyb3I6IiwgZXJyb3IpOwogICAgcmV0dXJuIE5leHRSZXNwb25zZS5qc29uKAogICAgICB7IGVycm9yOiAiRXJybyBhbyBmYXplciBsb2dpbiIgfSwKICAgICAgeyBzdGF0dXM6IDUwMCB9CiAgICApOwogIH0KfQo="}
+import { NextResponse } from "next/server";
+import { createClient } from "@/lib/supabase/server";
+
+export async function POST(request: Request) {
+  try {
+    const { email, password } = await request.json();
+
+    if (!email || !password) {
+      return NextResponse.json(
+        { error: "Email e senha são obrigatórios" },
+        { status: 400 }
+      );
+    }
+
+    const supabase = await createClient();
+
+    // Find user by email
+    const { data: user, error } = await supabase
+      .from("users")
+      .select("*")
+      .eq("email", email)
+      .single();
+
+    if (error || !user) {
+      return NextResponse.json(
+        { error: "Email ou senha incorretos" },
+        { status: 401 }
+      );
+    }
+
+    // Check password (plain text comparison - in production use bcrypt)
+    if (user.password_hash !== password) {
+      return NextResponse.json(
+        { error: "Email ou senha incorretos" },
+        { status: 401 }
+      );
+    }
+
+    return NextResponse.json({
+      user: {
+        id: user.id,
+        email: user.email,
+        name: user.name,
+        coupleCode: user.couple_code,
+        partnerId: user.partner_id,
+      },
+    });
+  } catch (error) {
+    console.error("Login error:", error);
+    return NextResponse.json(
+      { error: "Erro ao fazer login" },
+      { status: 500 }
+    );
+  }
+}

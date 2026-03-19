@@ -1,1 +1,92 @@
-{"data":"aW1wb3J0IHsgTmV4dFJlc3BvbnNlIH0gZnJvbSAibmV4dC9zZXJ2ZXIiOwppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICJAL2xpYi9zdXBhYmFzZS9zZXJ2ZXIiOwoKZnVuY3Rpb24gZ2VuZXJhdGVDb3VwbGVDb2RlKCk6IHN0cmluZyB7CiAgY29uc3QgY2hhcnMgPSAiQUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVowMTIzNDU2Nzg5IjsKICBsZXQgY29kZSA9ICIiOwogIGZvciAobGV0IGkgPSAwOyBpIDwgNjsgaSsrKSB7CiAgICBjb2RlICs9IGNoYXJzLmNoYXJBdChNYXRoLmZsb29yKE1hdGgucmFuZG9tKCkgKiBjaGFycy5sZW5ndGgpKTsKICB9CiAgcmV0dXJuIGNvZGU7Cn0KCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBQT1NUKHJlcXVlc3Q6IFJlcXVlc3QpIHsKICB0cnkgewogICAgY29uc3QgeyBuYW1lLCBlbWFpbCwgcGFzc3dvcmQgfSA9IGF3YWl0IHJlcXVlc3QuanNvbigpOwoKICAgIGlmICghbmFtZSB8fCAhZW1haWwgfHwgIXBhc3N3b3JkKSB7CiAgICAgIHJldHVybiBOZXh0UmVzcG9uc2UuanNvbigKICAgICAgICB7IGVycm9yOiAiTm9tZSwgZW1haWwgZSBzZW5oYSBzw6NvIG9icmlnYXTDs3Jpb3MiIH0sCiAgICAgICAgeyBzdGF0dXM6IDQwMCB9CiAgICAgICk7CiAgICB9CgogICAgY29uc3Qgc3VwYWJhc2UgPSBhd2FpdCBjcmVhdGVDbGllbnQoKTsKCiAgICAvLyBDaGVjayBpZiBlbWFpbCBhbHJlYWR5IGV4aXN0cwogICAgY29uc3QgeyBkYXRhOiBleGlzdGluZ1VzZXIgfSA9IGF3YWl0IHN1cGFiYXNlCiAgICAgIC5mcm9tKCJ1c2VycyIpCiAgICAgIC5zZWxlY3QoImlkIikKICAgICAgLmVxKCJlbWFpbCIsIGVtYWlsKQogICAgICAuc2luZ2xlKCk7CgogICAgaWYgKGV4aXN0aW5nVXNlcikgewogICAgICByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oCiAgICAgICAgeyBlcnJvcjogIkVzdGUgZW1haWwgasOhIGVzdMOhIGNhZGFzdHJhZG8iIH0sCiAgICAgICAgeyBzdGF0dXM6IDQwMCB9CiAgICAgICk7CiAgICB9CgogICAgLy8gR2VuZXJhdGUgdW5pcXVlIGNvdXBsZSBjb2RlCiAgICBsZXQgY291cGxlQ29kZSA9IGdlbmVyYXRlQ291cGxlQ29kZSgpOwogICAgbGV0IGNvZGVFeGlzdHMgPSB0cnVlOwogICAgd2hpbGUgKGNvZGVFeGlzdHMpIHsKICAgICAgY29uc3QgeyBkYXRhIH0gPSBhd2FpdCBzdXBhYmFzZQogICAgICAgIC5mcm9tKCJ1c2VycyIpCiAgICAgICAgLnNlbGVjdCgiaWQiKQogICAgICAgIC5lcSgiY291cGxlX2NvZGUiLCBjb3VwbGVDb2RlKQogICAgICAgIC5zaW5nbGUoKTsKICAgICAgaWYgKCFkYXRhKSB7CiAgICAgICAgY29kZUV4aXN0cyA9IGZhbHNlOwogICAgICB9IGVsc2UgewogICAgICAgIGNvdXBsZUNvZGUgPSBnZW5lcmF0ZUNvdXBsZUNvZGUoKTsKICAgICAgfQogICAgfQoKICAgIC8vIEluc2VydCBuZXcgdXNlciAoc3RvcmluZyBwYXNzd29yZCBhcyBwbGFpbiB0ZXh0IGZvciBzaW1wbGljaXR5IC0gaW4gcHJvZHVjdGlvbiB1c2UgYmNyeXB0KQogICAgY29uc3QgeyBkYXRhOiBuZXdVc2VyLCBlcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UKICAgICAgLmZyb20oInVzZXJzIikKICAgICAgLmluc2VydCh7CiAgICAgICAgZW1haWwsCiAgICAgICAgbmFtZSwKICAgICAgICBjb3VwbGVfY29kZTogY291cGxlQ29kZSwKICAgICAgICBwYXNzd29yZF9oYXNoOiBwYXNzd29yZCwKICAgICAgfSkKICAgICAgLnNlbGVjdCgpCiAgICAgIC5zaW5nbGUoKTsKCiAgICBpZiAoZXJyb3IpIHsKICAgICAgY29uc29sZS5lcnJvcigiU3VwYWJhc2UgaW5zZXJ0IGVycm9yOiIsIGVycm9yKTsKICAgICAgcmV0dXJuIE5leHRSZXNwb25zZS5qc29uKAogICAgICAgIHsgZXJyb3I6ICJFcnJvIGFvIGNyaWFyIGNvbnRhIiB9LAogICAgICAgIHsgc3RhdHVzOiA1MDAgfQogICAgICApOwogICAgfQoKICAgIHJldHVybiBOZXh0UmVzcG9uc2UuanNvbih7CiAgICAgIHVzZXI6IHsKICAgICAgICBpZDogbmV3VXNlci5pZCwKICAgICAgICBlbWFpbDogbmV3VXNlci5lbWFpbCwKICAgICAgICBuYW1lOiBuZXdVc2VyLm5hbWUsCiAgICAgICAgY291cGxlQ29kZTogbmV3VXNlci5jb3VwbGVfY29kZSwKICAgICAgICBwYXJ0bmVySWQ6IG5ld1VzZXIucGFydG5lcl9pZCwKICAgICAgfSwKICAgIH0pOwogIH0gY2F0Y2ggKGVycm9yKSB7CiAgICBjb25zb2xlLmVycm9yKCJSZWdpc3RlciBlcnJvcjoiLCBlcnJvcik7CiAgICByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oCiAgICAgIHsgZXJyb3I6ICJFcnJvIGFvIHJlZ2lzdHJhciB1c3XDoXJpbyIgfSwKICAgICAgeyBzdGF0dXM6IDUwMCB9CiAgICApOwogIH0KfQo="}
+import { NextResponse } from "next/server";
+import { createClient } from "@/lib/supabase/server";
+
+function generateCoupleCode(): string {
+  const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+  let code = "";
+  for (let i = 0; i < 6; i++) {
+    code += chars.charAt(Math.floor(Math.random() * chars.length));
+  }
+  return code;
+}
+
+export async function POST(request: Request) {
+  try {
+    const { name, email, password } = await request.json();
+
+    if (!name || !email || !password) {
+      return NextResponse.json(
+        { error: "Nome, email e senha são obrigatórios" },
+        { status: 400 }
+      );
+    }
+
+    const supabase = await createClient();
+
+    // Check if email already exists
+    const { data: existingUser } = await supabase
+      .from("users")
+      .select("id")
+      .eq("email", email)
+      .single();
+
+    if (existingUser) {
+      return NextResponse.json(
+        { error: "Este email já está cadastrado" },
+        { status: 400 }
+      );
+    }
+
+    // Generate unique couple code
+    let coupleCode = generateCoupleCode();
+    let codeExists = true;
+    while (codeExists) {
+      const { data } = await supabase
+        .from("users")
+        .select("id")
+        .eq("couple_code", coupleCode)
+        .single();
+      if (!data) {
+        codeExists = false;
+      } else {
+        coupleCode = generateCoupleCode();
+      }
+    }
+
+    // Insert new user (storing password as plain text for simplicity - in production use bcrypt)
+    const { data: newUser, error } = await supabase
+      .from("users")
+      .insert({
+        email,
+        name,
+        couple_code: coupleCode,
+        password_hash: password,
+      })
+      .select()
+      .single();
+
+    if (error) {
+      console.error("Supabase insert error:", error);
+      return NextResponse.json(
+        { error: "Erro ao criar conta" },
+        { status: 500 }
+      );
+    }
+
+    return NextResponse.json({
+      user: {
+        id: newUser.id,
+        email: newUser.email,
+        name: newUser.name,
+        coupleCode: newUser.couple_code,
+        partnerId: newUser.partner_id,
+      },
+    });
+  } catch (error) {
+    console.error("Register error:", error);
+    return NextResponse.json(
+      { error: "Erro ao registrar usuário" },
+      { status: 500 }
+    );
+  }
+}

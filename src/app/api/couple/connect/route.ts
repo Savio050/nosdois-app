@@ -1,1 +1,118 @@
-{"data":"aW1wb3J0IHsgTmV4dFJlc3BvbnNlIH0gZnJvbSAibmV4dC9zZXJ2ZXIiOwppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICJAL2xpYi9zdXBhYmFzZS9zZXJ2ZXIiOwoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIFBPU1QocmVxdWVzdDogUmVxdWVzdCkgewogIHRyeSB7CiAgICBjb25zdCB7IHVzZXJJZCwgcGFydG5lckNvZGUgfSA9IGF3YWl0IHJlcXVlc3QuanNvbigpOwoKICAgIGlmICghdXNlcklkIHx8ICFwYXJ0bmVyQ29kZSkgewogICAgICByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oCiAgICAgICAgeyBlcnJvcjogIklEIGRvIHVzdcOhcmlvIGUgY8OzZGlnbyBkbyBwYXJjZWlybyBzw6NvIG9icmlnYXTDs3Jpb3MiIH0sCiAgICAgICAgeyBzdGF0dXM6IDQwMCB9CiAgICAgICk7CiAgICB9CgogICAgY29uc3Qgc3VwYWJhc2UgPSBhd2FpdCBjcmVhdGVDbGllbnQoKTsKCiAgICAvLyBGaW5kIGN1cnJlbnQgdXNlcgogICAgY29uc3QgeyBkYXRhOiBjdXJyZW50VXNlciwgZXJyb3I6IHVzZXJFcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UKICAgICAgLmZyb20oInVzZXJzIikKICAgICAgLnNlbGVjdCgiKiIpCiAgICAgIC5lcSgiaWQiLCB1c2VySWQpCiAgICAgIC5zaW5nbGUoKTsKCiAgICBpZiAodXNlckVycm9yIHx8ICFjdXJyZW50VXNlcikgewogICAgICByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oCiAgICAgICAgeyBlcnJvcjogIlVzdcOhcmlvIG7Do28gZW5jb250cmFkbyIgfSwKICAgICAgICB7IHN0YXR1czogNDA0IH0KICAgICAgKTsKICAgIH0KCiAgICAvLyBDaGVjayBpZiBhbHJlYWR5IGNvbm5lY3RlZAogICAgaWYgKGN1cnJlbnRVc2VyLnBhcnRuZXJfaWQpIHsKICAgICAgcmV0dXJuIE5leHRSZXNwb25zZS5qc29uKAogICAgICAgIHsgZXJyb3I6ICJWb2PDqiBqw6EgZXN0w6EgY29uZWN0YWRvIGNvbSB1bSBwYXJjZWlybyIgfSwKICAgICAgICB7IHN0YXR1czogNDAwIH0KICAgICAgKTsKICAgIH0KCiAgICAvLyBGaW5kIHBhcnRuZXIgYnkgY29kZQogICAgY29uc3QgeyBkYXRhOiBwYXJ0bmVyLCBlcnJvcjogcGFydG5lckVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZQogICAgICAuZnJvbSgidXNlcnMiKQogICAgICAuc2VsZWN0KCIqIikKICAgICAgLmVxKCJjb3VwbGVfY29kZSIsIHBhcnRuZXJDb2RlLnRvVXBwZXJDYXNlKCkpCiAgICAgIC5zaW5nbGUoKTsKCiAgICBpZiAocGFydG5lckVycm9yIHx8ICFwYXJ0bmVyKSB7CiAgICAgIHJldHVybiBOZXh0UmVzcG9uc2UuanNvbigKICAgICAgICB7IGVycm9yOiAiQ8OzZGlnbyBpbnbDoWxpZG8iIH0sCiAgICAgICAgeyBzdGF0dXM6IDQwNCB9CiAgICAgICk7CiAgICB9CgogICAgLy8gQ2FuJ3QgY29ubmVjdCB0byB5b3Vyc2VsZgogICAgaWYgKHBhcnRuZXIuaWQgPT09IHVzZXJJZCkgewogICAgICByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oCiAgICAgICAgeyBlcnJvcjogIlZvY8OqIG7Do28gcG9kZSBjb25lY3RhciBjb25zaWdvIG1lc21vIiB9LAogICAgICAgIHsgc3RhdHVzOiA0MDAgfQogICAgICApOwogICAgfQoKICAgIC8vIENoZWNrIGlmIHBhcnRuZXIgYWxyZWFkeSBjb25uZWN0ZWQKICAgIGlmIChwYXJ0bmVyLnBhcnRuZXJfaWQpIHsKICAgICAgcmV0dXJuIE5leHRSZXNwb25zZS5qc29uKAogICAgICAgIHsgZXJyb3I6ICJFc3RlIHVzdcOhcmlvIGrDoSBlc3TDoSBjb25lY3RhZG8gY29tIG91dHJhIHBlc3NvYSIgfSwKICAgICAgICB7IHN0YXR1czogNDAwIH0KICAgICAgKTsKICAgIH0KCiAgICAvLyBMaW5rIGJvdGggdXNlcnMgLSB1cGRhdGUgY3VycmVudCB1c2VyCiAgICBjb25zdCB7IGVycm9yOiB1cGRhdGVFcnJvcjEgfSA9IGF3YWl0IHN1cGFiYXNlCiAgICAgIC5mcm9tKCJ1c2VycyIpCiAgICAgIC51cGRhdGUoeyBwYXJ0bmVyX2lkOiBwYXJ0bmVyLmlkIH0pCiAgICAgIC5lcSgiaWQiLCB1c2VySWQpOwoKICAgIC8vIFVwZGF0ZSBwYXJ0bmVyCiAgICBjb25zdCB7IGVycm9yOiB1cGRhdGVFcnJvcjIgfSA9IGF3YWl0IHN1cGFiYXNlCiAgICAgIC5mcm9tKCJ1c2VycyIpCiAgICAgIC51cGRhdGUoeyBwYXJ0bmVyX2lkOiB1c2VySWQgfSkKICAgICAgLmVxKCJpZCIsIHBhcnRuZXIuaWQpOwoKICAgIGlmICh1cGRhdGVFcnJvcjEgfHwgdXBkYXRlRXJyb3IyKSB7CiAgICAgIGNvbnNvbGUuZXJyb3IoIlVwZGF0ZSBlcnJvcnM6IiwgdXBkYXRlRXJyb3IxLCB1cGRhdGVFcnJvcjIpOwogICAgICByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oCiAgICAgICAgeyBlcnJvcjogIkVycm8gYW8gY29uZWN0YXIgY29tIHBhcmNlaXJvIiB9LAogICAgICAgIHsgc3RhdHVzOiA1MDAgfQogICAgICApOwogICAgfQoKICAgIC8vIEdldCB1cGRhdGVkIHVzZXIKICAgIGNvbnN0IHsgZGF0YTogdXBkYXRlZFVzZXIgfSA9IGF3YWl0IHN1cGFiYXNlCiAgICAgIC5mcm9tKCJ1c2VycyIpCiAgICAgIC5zZWxlY3QoIioiKQogICAgICAuZXEoImlkIiwgdXNlcklkKQogICAgICAuc2luZ2xlKCk7CgogICAgcmV0dXJuIE5leHRSZXNwb25zZS5qc29uKHsKICAgICAgdXNlcjogewogICAgICAgIGlkOiB1cGRhdGVkVXNlciEuaWQsCiAgICAgICAgZW1haWw6IHVwZGF0ZWRVc2VyIS5lbWFpbCwKICAgICAgICBuYW1lOiB1cGRhdGVkVXNlciEubmFtZSwKICAgICAgICBjb3VwbGVDb2RlOiB1cGRhdGVkVXNlciEuY291cGxlX2NvZGUsCiAgICAgICAgcGFydG5lcklkOiB1cGRhdGVkVXNlciEucGFydG5lcl9pZCwKICAgICAgfSwKICAgICAgcGFydG5lcjogewogICAgICAgIGlkOiBwYXJ0bmVyLmlkLAogICAgICAgIG5hbWU6IHBhcnRuZXIubmFtZSwKICAgICAgICBlbWFpbDogcGFydG5lci5lbWFpbCwKICAgICAgICBjb3VwbGVDb2RlOiBwYXJ0bmVyLmNvdXBsZV9jb2RlLAogICAgICB9LAogICAgfSk7CiAgfSBjYXRjaCAoZXJyb3IpIHsKICAgIGNvbnNvbGUuZXJyb3IoIkNvbm5lY3QgZXJyb3I6IiwgZXJyb3IpOwogICAgcmV0dXJuIE5leHRSZXNwb25zZS5qc29uKAogICAgICB7IGVycm9yOiAiRXJybyBhbyBjb25lY3RhciBjb20gcGFyY2Vpcm8iIH0sCiAgICAgIHsgc3RhdHVzOiA1MDAgfQogICAgKTsKICB9Cn0K"}
+import { NextResponse } from "next/server";
+import { createClient } from "@/lib/supabase/server";
+
+export async function POST(request: Request) {
+  try {
+    const { userId, partnerCode } = await request.json();
+
+    if (!userId || !partnerCode) {
+      return NextResponse.json(
+        { error: "ID do usuário e código do parceiro são obrigatórios" },
+        { status: 400 }
+      );
+    }
+
+    const supabase = await createClient();
+
+    // Find current user
+    const { data: currentUser, error: userError } = await supabase
+      .from("users")
+      .select("*")
+      .eq("id", userId)
+      .single();
+
+    if (userError || !currentUser) {
+      return NextResponse.json(
+        { error: "Usuário não encontrado" },
+        { status: 404 }
+      );
+    }
+
+    // Check if already connected
+    if (currentUser.partner_id) {
+      return NextResponse.json(
+        { error: "Você já está conectado com um parceiro" },
+        { status: 400 }
+      );
+    }
+
+    // Find partner by code
+    const { data: partner, error: partnerError } = await supabase
+      .from("users")
+      .select("*")
+      .eq("couple_code", partnerCode.toUpperCase())
+      .single();
+
+    if (partnerError || !partner) {
+      return NextResponse.json(
+        { error: "Código inválido" },
+        { status: 404 }
+      );
+    }
+
+    // Can't connect to yourself
+    if (partner.id === userId) {
+      return NextResponse.json(
+        { error: "Você não pode conectar consigo mesmo" },
+        { status: 400 }
+      );
+    }
+
+    // Check if partner already connected
+    if (partner.partner_id) {
+      return NextResponse.json(
+        { error: "Este usuário já está conectado com outra pessoa" },
+        { status: 400 }
+      );
+    }
+
+    // Link both users - update current user
+    const { error: updateError1 } = await supabase
+      .from("users")
+      .update({ partner_id: partner.id })
+      .eq("id", userId);
+
+    // Update partner
+    const { error: updateError2 } = await supabase
+      .from("users")
+      .update({ partner_id: userId })
+      .eq("id", partner.id);
+
+    if (updateError1 || updateError2) {
+      console.error("Update errors:", updateError1, updateError2);
+      return NextResponse.json(
+        { error: "Erro ao conectar com parceiro" },
+        { status: 500 }
+      );
+    }
+
+    // Get updated user
+    const { data: updatedUser } = await supabase
+      .from("users")
+      .select("*")
+      .eq("id", userId)
+      .single();
+
+    return NextResponse.json({
+      user: {
+        id: updatedUser!.id,
+        email: updatedUser!.email,
+        name: updatedUser!.name,
+        coupleCode: updatedUser!.couple_code,
+        partnerId: updatedUser!.partner_id,
+      },
+      partner: {
+        id: partner.id,
+        name: partner.name,
+        email: partner.email,
+        coupleCode: partner.couple_code,
+      },
+    });
+  } catch (error) {
+    console.error("Connect error:", error);
+    return NextResponse.json(
+      { error: "Erro ao conectar com parceiro" },
+      { status: 500 }
+    );
+  }
+}

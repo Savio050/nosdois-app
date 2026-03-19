@@ -1,1 +1,303 @@
-{"data":"InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgdXNlU3RhdGUsIHVzZUVmZmVjdCwgdXNlTWVtbywgdXNlQ2FsbGJhY2sgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBDYXJkLCBDYXJkQ29udGVudCwgQ2FyZEhlYWRlciB9IGZyb20gIkAvY29tcG9uZW50cy91aS9jYXJkIjsKaW1wb3J0IHsgSGVhcnRJY29uLCBDaGV2cm9uTGVmdEljb24sIENoZXZyb25SaWdodEljb24gfSBmcm9tICJAL2NvbXBvbmVudHMvaWNvbnMiOwppbXBvcnQgeyBVc2VyLCBnZXRDb3VwbGVTdGF0dXMsIGdldEFuc3dlcnNGb3JEYXRlLCBnZXREYXRlc1dpdGhBbnN3ZXJzIH0gZnJvbSAiQC9saWIvc3RvcmFnZSI7CgppbnRlcmZhY2UgSGlzdG9yeUNhbGVuZGFyUHJvcHMgewogIHVzZXI6IFVzZXI7Cn0KCmNvbnN0IERBWVNfT0ZfV0VFSyA9IFsiRG9tIiwgIlNlZyIsICJUZXIiLCAiUXVhIiwgIlF1aSIsICJTZXgiLCAiU2FiIl07CmNvbnN0IE1PTlRIUyA9IFsKICAiSmFuZWlybyIsICJGZXZlcmVpcm8iLCAiTWFyw6dvIiwgIkFicmlsIiwgIk1haW8iLCAiSnVuaG8iLAogICJKdWxobyIsICJBZ29zdG8iLCAiU2V0ZW1icm8iLCAiT3V0dWJybyIsICJOb3ZlbWJybyIsICJEZXplbWJybyIKXTsKCmZ1bmN0aW9uIGZvcm1hdERhdGVLZXkoZGF0ZTogRGF0ZSk6IHN0cmluZyB7CiAgcmV0dXJuIGRhdGUudG9JU09TdHJpbmcoKS5zcGxpdCgiVCIpWzBdOwp9CgppbnRlcmZhY2UgU2VsZWN0ZWREYXRlQW5zd2VycyB7CiAgcXVlc3Rpb246IHN0cmluZyB8IG51bGw7CiAgY2F0ZWdvcnk6IHN0cmluZyB8IG51bGw7CiAgdXNlckFuc3dlcjogc3RyaW5nIHwgbnVsbDsKICBwYXJ0bmVyQW5zd2VyOiBzdHJpbmcgfCBudWxsOwp9CgpleHBvcnQgZnVuY3Rpb24gSGlzdG9yeUNhbGVuZGFyKHsgdXNlciB9OiBIaXN0b3J5Q2FsZW5kYXJQcm9wcykgewogIGNvbnN0IFtwYXJ0bmVyLCBzZXRQYXJ0bmVyXSA9IHVzZVN0YXRlPFVzZXIgfCBudWxsPihudWxsKTsKICBjb25zdCBbY3VycmVudERhdGUsIHNldEN1cnJlbnREYXRlXSA9IHVzZVN0YXRlKG5ldyBEYXRlKCkpOwogIGNvbnN0IFtzZWxlY3RlZERhdGUsIHNldFNlbGVjdGVkRGF0ZV0gPSB1c2VTdGF0ZTxEYXRlIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgW2RhdGVzV2l0aEFuc3dlcnMsIHNldERhdGVzV2l0aEFuc3dlcnNdID0gdXNlU3RhdGU8U2V0PHN0cmluZz4+KG5ldyBTZXQoKSk7CiAgY29uc3QgW3NlbGVjdGVkRGF0ZUFuc3dlcnMsIHNldFNlbGVjdGVkRGF0ZUFuc3dlcnNdID0gdXNlU3RhdGU8U2VsZWN0ZWREYXRlQW5zd2VycyB8IG51bGw+KG51bGwpOwogIGNvbnN0IFtpc0xvYWRpbmcsIHNldElzTG9hZGluZ10gPSB1c2VTdGF0ZShmYWxzZSk7CgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICAvLyBMb2FkIHBhcnRuZXIgaW5mbwogICAgZ2V0Q291cGxlU3RhdHVzKHVzZXIuaWQpLnRoZW4oc3RhdHVzID0+IHsKICAgICAgaWYgKHN0YXR1cz8ucGFydG5lcikgewogICAgICAgIHNldFBhcnRuZXIoc3RhdHVzLnBhcnRuZXIpOwogICAgICB9CiAgICB9KTsKICAgIAogICAgLy8gTG9hZCBkYXRlcyB3aXRoIGFuc3dlcnMKICAgIGdldERhdGVzV2l0aEFuc3dlcnModXNlci5pZCkudGhlbihkYXRlcyA9PiB7CiAgICAgIHNldERhdGVzV2l0aEFuc3dlcnMobmV3IFNldChkYXRlcykpOwogICAgfSk7CiAgfSwgW3VzZXIuaWRdKTsKCiAgY29uc3QgbG9hZFNlbGVjdGVkRGF0ZUFuc3dlcnMgPSB1c2VDYWxsYmFjayhhc3luYyAoZGF0ZTogRGF0ZSkgPT4gewogICAgc2V0SXNMb2FkaW5nKHRydWUpOwogICAgdHJ5IHsKICAgICAgY29uc3QgZGF0ZUtleSA9IGZvcm1hdERhdGVLZXkoZGF0ZSk7CiAgICAgIGNvbnN0IGRhdGEgPSBhd2FpdCBnZXRBbnN3ZXJzRm9yRGF0ZSh1c2VyLmlkLCBkYXRlS2V5KTsKICAgICAgCiAgICAgIHNldFNlbGVjdGVkRGF0ZUFuc3dlcnMoewogICAgICAgIHF1ZXN0aW9uOiBkYXRhLnF1ZXN0aW9uPy50ZXh0IHx8IG51bGwsCiAgICAgICAgY2F0ZWdvcnk6IGRhdGEucXVlc3Rpb24/LmNhdGVnb3J5IHx8IG51bGwsCiAgICAgICAgdXNlckFuc3dlcjogZGF0YS51c2VyQW5zd2VyLAogICAgICAgIHBhcnRuZXJBbnN3ZXI6IGRhdGEucGFydG5lckFuc3dlciwKICAgICAgfSk7CiAgICB9IGZpbmFsbHkgewogICAgICBzZXRJc0xvYWRpbmcoZmFsc2UpOwogICAgfQogIH0sIFt1c2VyLmlkXSk7CgogIGNvbnN0IGhhbmRsZVNlbGVjdERhdGUgPSB1c2VDYWxsYmFjaygoZGF0ZTogRGF0ZSkgPT4gewogICAgc2V0U2VsZWN0ZWREYXRlKGRhdGUpOwogICAgbG9hZFNlbGVjdGVkRGF0ZUFuc3dlcnMoZGF0ZSk7CiAgfSwgW2xvYWRTZWxlY3RlZERhdGVBbnN3ZXJzXSk7CgogIGNvbnN0IGNhbGVuZGFyRGF5cyA9IHVzZU1lbW8oKCkgPT4gewogICAgY29uc3QgeWVhciA9IGN1cnJlbnREYXRlLmdldEZ1bGxZZWFyKCk7CiAgICBjb25zdCBtb250aCA9IGN1cnJlbnREYXRlLmdldE1vbnRoKCk7CiAgICAKICAgIGNvbnN0IGZpcnN0RGF5ID0gbmV3IERhdGUoeWVhciwgbW9udGgsIDEpOwogICAgY29uc3QgbGFzdERheSA9IG5ldyBEYXRlKHllYXIsIG1vbnRoICsgMSwgMCk7CiAgICAKICAgIGNvbnN0IGRheXM6IChEYXRlIHwgbnVsbClbXSA9IFtdOwogICAgCiAgICAvLyBBZGQgZW1wdHkgc2xvdHMgZm9yIGRheXMgYmVmb3JlIHRoZSBmaXJzdCBvZiB0aGUgbW9udGgKICAgIGZvciAobGV0IGkgPSAwOyBpIDwgZmlyc3REYXkuZ2V0RGF5KCk7IGkrKykgewogICAgICBkYXlzLnB1c2gobnVsbCk7CiAgICB9CiAgICAKICAgIC8vIEFkZCBhbGwgZGF5cyBvZiB0aGUgbW9udGgKICAgIGZvciAobGV0IGkgPSAxOyBpIDw9IGxhc3REYXkuZ2V0RGF0ZSgpOyBpKyspIHsKICAgICAgZGF5cy5wdXNoKG5ldyBEYXRlKHllYXIsIG1vbnRoLCBpKSk7CiAgICB9CiAgICAKICAgIHJldHVybiBkYXlzOwogIH0sIFtjdXJyZW50RGF0ZV0pOwoKICBjb25zdCBuYXZpZ2F0ZU1vbnRoID0gKGRpcmVjdGlvbjogbnVtYmVyKSA9PiB7CiAgICBzZXRDdXJyZW50RGF0ZShwcmV2ID0+IHsKICAgICAgY29uc3QgbmV3RGF0ZSA9IG5ldyBEYXRlKHByZXYpOwogICAgICBuZXdEYXRlLnNldE1vbnRoKG5ld0RhdGUuZ2V0TW9udGgoKSArIGRpcmVjdGlvbik7CiAgICAgIHJldHVybiBuZXdEYXRlOwogICAgfSk7CiAgICBzZXRTZWxlY3RlZERhdGUobnVsbCk7CiAgICBzZXRTZWxlY3RlZERhdGVBbnN3ZXJzKG51bGwpOwogIH07CgogIGNvbnN0IGlzVG9kYXkgPSAoZGF0ZTogRGF0ZSkgPT4gewogICAgY29uc3QgdG9kYXkgPSBuZXcgRGF0ZSgpOwogICAgcmV0dXJuIGRhdGUudG9EYXRlU3RyaW5nKCkgPT09IHRvZGF5LnRvRGF0ZVN0cmluZygpOwogIH07CgogIGNvbnN0IGlzRnV0dXJlID0gKGRhdGU6IERhdGUpID0+IHsKICAgIGNvbnN0IHRvZGF5ID0gbmV3IERhdGUoKTsKICAgIHRvZGF5LnNldEhvdXJzKDAsIDAsIDAsIDApOwogICAgcmV0dXJuIGRhdGUgPiB0b2RheTsKICB9OwoKICBjb25zdCBoYXNBbnN3ZXJzID0gKGRhdGU6IERhdGUpID0+IHsKICAgIHJldHVybiBkYXRlc1dpdGhBbnN3ZXJzLmhhcyhmb3JtYXREYXRlS2V5KGRhdGUpKTsKICB9OwoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9InAtNCBwYi0yNCI+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJtYXgtdy1sZyBteC1hdXRvIj4KICAgICAgICB7LyogSGVhZGVyICovfQogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LWNlbnRlciBtYi02IHB0LTQiPgogICAgICAgICAgPGgxIGNsYXNzTmFtZT0iZm9udC1zZXJpZiB0ZXh0LTJ4bCB0ZXh0LWZvcmVncm91bmQgbWItMSI+SGlzdMOzcmljbzwvaDE+CiAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgUmV2aXZhIGFzIHJlc3Bvc3RhcyBkZSB2b2PDqnMKICAgICAgICAgIDwvcD4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgey8qIENhbGVuZGFyICovfQogICAgICAgIDxDYXJkIGNsYXNzTmFtZT0iYm9yZGVyLTAgc2hhZG93LXhsIG1iLTYiPgogICAgICAgICAgPENhcmRIZWFkZXIgY2xhc3NOYW1lPSJwYi0yIj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiI+CiAgICAgICAgICAgICAgPEJ1dHRvbiAKICAgICAgICAgICAgICAgIHZhcmlhbnQ9Imdob3N0IiAKICAgICAgICAgICAgICAgIHNpemU9Imljb24iIAogICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gbmF2aWdhdGVNb250aCgtMSl9CiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPENoZXZyb25MZWZ0SWNvbiBjbGFzc05hbWU9InctNSBoLTUiIC8+CiAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmb250LXNlcmlmIHRleHQtbGcgZm9udC1tZWRpdW0gdGV4dC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgIHtNT05USFNbY3VycmVudERhdGUuZ2V0TW9udGgoKV19IHtjdXJyZW50RGF0ZS5nZXRGdWxsWWVhcigpfQogICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICA8QnV0dG9uIAogICAgICAgICAgICAgICAgdmFyaWFudD0iZ2hvc3QiIAogICAgICAgICAgICAgICAgc2l6ZT0iaWNvbiIgCiAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBuYXZpZ2F0ZU1vbnRoKDEpfQogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxDaGV2cm9uUmlnaHRJY29uIGNsYXNzTmFtZT0idy01IGgtNSIgLz4KICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L0NhcmRIZWFkZXI+CiAgICAgICAgICA8Q2FyZENvbnRlbnQ+CiAgICAgICAgICAgIHsvKiBEYXlzIG9mIHdlZWsgaGVhZGVyICovfQogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtNyBnYXAtMSBtYi0yIj4KICAgICAgICAgICAgICB7REFZU19PRl9XRUVLLm1hcChkYXkgPT4gKAogICAgICAgICAgICAgICAgPGRpdiAKICAgICAgICAgICAgICAgICAga2V5PXtkYXl9IAogICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InRleHQtY2VudGVyIHRleHQteHMgZm9udC1tZWRpdW0gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIHB5LTIiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIHtkYXl9CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIAogICAgICAgICAgICB7LyogQ2FsZW5kYXIgZ3JpZCAqL30KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTcgZ2FwLTEiPgogICAgICAgICAgICAgIHtjYWxlbmRhckRheXMubWFwKChkYXRlLCBpbmRleCkgPT4gKAogICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICBrZXk9e2luZGV4fQogICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBkYXRlICYmICFpc0Z1dHVyZShkYXRlKSAmJiBoYW5kbGVTZWxlY3REYXRlKGRhdGUpfQogICAgICAgICAgICAgICAgICBkaXNhYmxlZD17IWRhdGUgfHwgaXNGdXR1cmUoZGF0ZSl9CiAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17YAogICAgICAgICAgICAgICAgICAgIGFzcGVjdC1zcXVhcmUgcm91bmRlZC1sZyBmbGV4IGZsZXgtY29sIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciB0ZXh0LXNtCiAgICAgICAgICAgICAgICAgICAgdHJhbnNpdGlvbi1hbGwgZHVyYXRpb24tMjAwCiAgICAgICAgICAgICAgICAgICAgJHshZGF0ZSA/ICdpbnZpc2libGUnIDogJyd9CiAgICAgICAgICAgICAgICAgICAgJHtkYXRlICYmIGlzRnV0dXJlKGRhdGUpID8gJ3RleHQtbXV0ZWQtZm9yZWdyb3VuZC80MCBjdXJzb3Itbm90LWFsbG93ZWQnIDogJyd9CiAgICAgICAgICAgICAgICAgICAgJHtkYXRlICYmICFpc0Z1dHVyZShkYXRlKSA/ICdob3ZlcjpiZy1wcmltYXJ5LzEwIGN1cnNvci1wb2ludGVyJyA6ICcnfQogICAgICAgICAgICAgICAgICAgICR7ZGF0ZSAmJiBpc1RvZGF5KGRhdGUpID8gJ2JnLXByaW1hcnkgdGV4dC1wcmltYXJ5LWZvcmVncm91bmQgaG92ZXI6YmctcHJpbWFyeS85MCcgOiAnJ30KICAgICAgICAgICAgICAgICAgICAke2RhdGUgJiYgc2VsZWN0ZWREYXRlPy50b0RhdGVTdHJpbmcoKSA9PT0gZGF0ZS50b0RhdGVTdHJpbmcoKSAmJiAhaXNUb2RheShkYXRlKSA/ICdiZy1hY2NlbnQvMzAgcmluZy0yIHJpbmctYWNjZW50JyA6ICcnfQogICAgICAgICAgICAgICAgICBgfQogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9e2RhdGUgJiYgaXNUb2RheShkYXRlKSA/ICdmb250LWJvbGQnIDogJyd9PgogICAgICAgICAgICAgICAgICAgIHtkYXRlPy5nZXREYXRlKCl9CiAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICAge2RhdGUgJiYgaGFzQW5zd2VycyhkYXRlKSAmJiAhaXNUb2RheShkYXRlKSAmJiAoCiAgICAgICAgICAgICAgICAgICAgPEhlYXJ0SWNvbiBjbGFzc05hbWU9InctMyBoLTMgdGV4dC1wcmltYXJ5IG10LTAuNSIgLz4KICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICkpfQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvQ2FyZENvbnRlbnQ+CiAgICAgICAgPC9DYXJkPgoKICAgICAgICB7LyogU2VsZWN0ZWQgRGF0ZSBEZXRhaWxzICovfQogICAgICAgIHtzZWxlY3RlZERhdGUgJiYgKAogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktNCBhbmltYXRlLWluIGZhZGUtaW4gc2xpZGUtaW4tZnJvbS1ib3R0b20tNCBkdXJhdGlvbi0zMDAiPgogICAgICAgICAgICB7aXNMb2FkaW5nID8gKAogICAgICAgICAgICAgIDxDYXJkIGNsYXNzTmFtZT0iYm9yZGVyLTAgc2hhZG93LXhsIj4KICAgICAgICAgICAgICAgIDxDYXJkQ29udGVudCBjbGFzc05hbWU9InB5LTggdGV4dC1jZW50ZXIiPgogICAgICAgICAgICAgICAgICA8SGVhcnRJY29uIGNsYXNzTmFtZT0idy04IGgtOCB0ZXh0LXByaW1hcnkgbXgtYXV0byBhbmltYXRlLXB1bHNlIiAvPgogICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtbXV0ZWQtZm9yZWdyb3VuZCB0ZXh0LXNtIG10LTIiPkNhcnJlZ2FuZG8uLi48L3A+CiAgICAgICAgICAgICAgICA8L0NhcmRDb250ZW50PgogICAgICAgICAgICAgIDwvQ2FyZD4KICAgICAgICAgICAgKSA6IHNlbGVjdGVkRGF0ZUFuc3dlcnM/LnF1ZXN0aW9uID8gKAogICAgICAgICAgICAgIDw+CiAgICAgICAgICAgICAgICA8Q2FyZCBjbGFzc05hbWU9ImJvcmRlci0wIHNoYWRvdy14bCBvdmVyZmxvdy1oaWRkZW4iPgogICAgICAgICAgICAgICAgICA8Q2FyZEhlYWRlciBjbGFzc05hbWU9ImJnLXByaW1hcnkvMTAgdGV4dC1jZW50ZXIgcHktNCI+CiAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHVwcGVyY2FzZSB0cmFja2luZy13aWRlc3QgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIG1iLTEiPgogICAgICAgICAgICAgICAgICAgICAge3NlbGVjdGVkRGF0ZS50b0xvY2FsZURhdGVTdHJpbmcoJ3B0LUJSJywgeyAKICAgICAgICAgICAgICAgICAgICAgICAgd2Vla2RheTogJ2xvbmcnLCAKICAgICAgICAgICAgICAgICAgICAgICAgZGF5OiAnbnVtZXJpYycsIAogICAgICAgICAgICAgICAgICAgICAgICBtb250aDogJ2xvbmcnIAogICAgICAgICAgICAgICAgICAgICAgfSl9CiAgICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9ImZvbnQtc2VyaWYgdGV4dC14bCB0ZXh0LWZvcmVncm91bmQgbGVhZGluZy1yZWxheGVkIHRleHQtYmFsYW5jZSI+CiAgICAgICAgICAgICAgICAgICAgICB7c2VsZWN0ZWREYXRlQW5zd2Vycy5xdWVzdGlvbn0KICAgICAgICAgICAgICAgICAgICA8L2gyPgogICAgICAgICAgICAgICAgICAgIHtzZWxlY3RlZERhdGVBbnN3ZXJzLmNhdGVnb3J5ICYmICgKICAgICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQgbXQtMiB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZSI+CiAgICAgICAgICAgICAgICAgICAgICAgIHtzZWxlY3RlZERhdGVBbnN3ZXJzLmNhdGVnb3J5fQogICAgICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICAgIDwvQ2FyZEhlYWRlcj4KICAgICAgICAgICAgICAgIDwvQ2FyZD4KCiAgICAgICAgICAgICAgICB7c2VsZWN0ZWREYXRlQW5zd2Vycy51c2VyQW5zd2VyIHx8IHNlbGVjdGVkRGF0ZUFuc3dlcnMucGFydG5lckFuc3dlciA/ICgKICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktMyI+CiAgICAgICAgICAgICAgICAgICAge3NlbGVjdGVkRGF0ZUFuc3dlcnMudXNlckFuc3dlciAmJiAoCiAgICAgICAgICAgICAgICAgICAgICA8Q2FyZCBjbGFzc05hbWU9ImJvcmRlci0wIHNoYWRvdy1sZyI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxDYXJkQ29udGVudCBjbGFzc05hbWU9InB0LTUgcGItNSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIG1iLTMiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InctNyBoLTcgcm91bmRlZC1mdWxsIGJnLXByaW1hcnkvMjAgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQteHMgZm9udC1zZW1pYm9sZCB0ZXh0LXByaW1hcnkiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHt1c2VyLm5hbWUuY2hhckF0KDApLnRvVXBwZXJDYXNlKCl9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtZm9yZWdyb3VuZCI+e3VzZXIubmFtZX08L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LWZvcmVncm91bmQgdGV4dC1zbSBsZWFkaW5nLXJlbGF4ZWQgcGwtOSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7c2VsZWN0ZWREYXRlQW5zd2Vycy51c2VyQW5zd2VyfQogICAgICAgICAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAgICAgICAgPC9DYXJkQ29udGVudD4KICAgICAgICAgICAgICAgICAgICAgIDwvQ2FyZD4KICAgICAgICAgICAgICAgICAgICApfQoKICAgICAgICAgICAgICAgICAgICB7c2VsZWN0ZWREYXRlQW5zd2Vycy5wYXJ0bmVyQW5zd2VyICYmICgKICAgICAgICAgICAgICAgICAgICAgIDxDYXJkIGNsYXNzTmFtZT0iYm9yZGVyLTAgc2hhZG93LWxnIj4KICAgICAgICAgICAgICAgICAgICAgICAgPENhcmRDb250ZW50IGNsYXNzTmFtZT0icHQtNSBwYi01Ij4KICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgbWItMyI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy03IGgtNyByb3VuZGVkLWZ1bGwgYmctYWNjZW50LzMwIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXhzIGZvbnQtc2VtaWJvbGQgdGV4dC1hY2NlbnQiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtwYXJ0bmVyPy5uYW1lPy5jaGFyQXQoMCkudG9VcHBlckNhc2UoKSB8fCAiPyJ9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtwYXJ0bmVyPy5uYW1lIHx8ICJQYXJjZWlybyhhKSJ9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LWZvcmVncm91bmQgdGV4dC1zbSBsZWFkaW5nLXJlbGF4ZWQgcGwtOSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7c2VsZWN0ZWREYXRlQW5zd2Vycy5wYXJ0bmVyQW5zd2VyfQogICAgICAgICAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAgICAgICAgPC9DYXJkQ29udGVudD4KICAgICAgICAgICAgICAgICAgICAgIDwvQ2FyZD4KICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICkgOiAoCiAgICAgICAgICAgICAgICAgIDxDYXJkIGNsYXNzTmFtZT0iYm9yZGVyLTAgc2hhZG93LWxnIj4KICAgICAgICAgICAgICAgICAgICA8Q2FyZENvbnRlbnQgY2xhc3NOYW1lPSJweS04IHRleHQtY2VudGVyIj4KICAgICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIHRleHQtc20iPgogICAgICAgICAgICAgICAgICAgICAgICBOZW5odW1hIHJlc3Bvc3RhIHBhcmEgZXN0ZSBkaWEKICAgICAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAgICA8L0NhcmRDb250ZW50PgogICAgICAgICAgICAgICAgICA8L0NhcmQ+CiAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgIDwvPgogICAgICAgICAgICApIDogKAogICAgICAgICAgICAgIDxDYXJkIGNsYXNzTmFtZT0iYm9yZGVyLTAgc2hhZG93LWxnIj4KICAgICAgICAgICAgICAgIDxDYXJkQ29udGVudCBjbGFzc05hbWU9InB5LTggdGV4dC1jZW50ZXIiPgogICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtbXV0ZWQtZm9yZWdyb3VuZCB0ZXh0LXNtIj4KICAgICAgICAgICAgICAgICAgICBOZW5odW1hIHBlcmd1bnRhIGF0cmlidcOtZGEgcGFyYSBlc3RlIGRpYQogICAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICA8L0NhcmRDb250ZW50PgogICAgICAgICAgICAgIDwvQ2FyZD4KICAgICAgICAgICAgKX0KICAgICAgICAgIDwvZGl2PgogICAgICAgICl9CgogICAgICAgIHsvKiBFbXB0eSBzdGF0ZSB3aGVuIG5vIGRhdGUgc2VsZWN0ZWQgKi99CiAgICAgICAgeyFzZWxlY3RlZERhdGUgJiYgKAogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtY2VudGVyIHB5LTgiPgogICAgICAgICAgICA8SGVhcnRJY29uIGNsYXNzTmFtZT0idy0xMiBoLTEyIHRleHQtcHJpbWFyeS8zMCBteC1hdXRvIG1iLTMiIC8+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIHRleHQtc20iPgogICAgICAgICAgICAgIFNlbGVjaW9uZSB1bSBkaWEgcGFyYSB2ZXIgYXMgcmVzcG9zdGFzCiAgICAgICAgICAgIDwvcD4KICAgICAgICAgIDwvZGl2PgogICAgICAgICl9CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgKTsKfQo="}
+"use client";
+
+import { useState, useEffect, useMemo, useCallback } from "react";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader } from "@/components/ui/card";
+import { HeartIcon, ChevronLeftIcon, ChevronRightIcon } from "@/components/icons";
+import { User, getCoupleStatus, getAnswersForDate, getDatesWithAnswers } from "@/lib/storage";
+
+interface HistoryCalendarProps {
+  user: User;
+}
+
+const DAYS_OF_WEEK = ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sab"];
+const MONTHS = [
+  "Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho",
+  "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"
+];
+
+function formatDateKey(date: Date): string {
+  return date.toISOString().split("T")[0];
+}
+
+interface SelectedDateAnswers {
+  question: string | null;
+  category: string | null;
+  userAnswer: string | null;
+  partnerAnswer: string | null;
+}
+
+export function HistoryCalendar({ user }: HistoryCalendarProps) {
+  const [partner, setPartner] = useState<User | null>(null);
+  const [currentDate, setCurrentDate] = useState(new Date());
+  const [selectedDate, setSelectedDate] = useState<Date | null>(null);
+  const [datesWithAnswers, setDatesWithAnswers] = useState<Set<string>>(new Set());
+  const [selectedDateAnswers, setSelectedDateAnswers] = useState<SelectedDateAnswers | null>(null);
+  const [isLoading, setIsLoading] = useState(false);
+
+  useEffect(() => {
+    // Load partner info
+    getCoupleStatus(user.id).then(status => {
+      if (status?.partner) {
+        setPartner(status.partner);
+      }
+    });
+    
+    // Load dates with answers
+    getDatesWithAnswers(user.id).then(dates => {
+      setDatesWithAnswers(new Set(dates));
+    });
+  }, [user.id]);
+
+  const loadSelectedDateAnswers = useCallback(async (date: Date) => {
+    setIsLoading(true);
+    try {
+      const dateKey = formatDateKey(date);
+      const data = await getAnswersForDate(user.id, dateKey);
+      
+      setSelectedDateAnswers({
+        question: data.question?.text || null,
+        category: data.question?.category || null,
+        userAnswer: data.userAnswer,
+        partnerAnswer: data.partnerAnswer,
+      });
+    } finally {
+      setIsLoading(false);
+    }
+  }, [user.id]);
+
+  const handleSelectDate = useCallback((date: Date) => {
+    setSelectedDate(date);
+    loadSelectedDateAnswers(date);
+  }, [loadSelectedDateAnswers]);
+
+  const calendarDays = useMemo(() => {
+    const year = currentDate.getFullYear();
+    const month = currentDate.getMonth();
+    
+    const firstDay = new Date(year, month, 1);
+    const lastDay = new Date(year, month + 1, 0);
+    
+    const days: (Date | null)[] = [];
+    
+    // Add empty slots for days before the first of the month
+    for (let i = 0; i < firstDay.getDay(); i++) {
+      days.push(null);
+    }
+    
+    // Add all days of the month
+    for (let i = 1; i <= lastDay.getDate(); i++) {
+      days.push(new Date(year, month, i));
+    }
+    
+    return days;
+  }, [currentDate]);
+
+  const navigateMonth = (direction: number) => {
+    setCurrentDate(prev => {
+      const newDate = new Date(prev);
+      newDate.setMonth(newDate.getMonth() + direction);
+      return newDate;
+    });
+    setSelectedDate(null);
+    setSelectedDateAnswers(null);
+  };
+
+  const isToday = (date: Date) => {
+    const today = new Date();
+    return date.toDateString() === today.toDateString();
+  };
+
+  const isFuture = (date: Date) => {
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    return date > today;
+  };
+
+  const hasAnswers = (date: Date) => {
+    return datesWithAnswers.has(formatDateKey(date));
+  };
+
+  return (
+    <div className="p-4 pb-24">
+      <div className="max-w-lg mx-auto">
+        {/* Header */}
+        <div className="text-center mb-6 pt-4">
+          <h1 className="font-serif text-2xl text-foreground mb-1">Histórico</h1>
+          <p className="text-sm text-muted-foreground">
+            Reviva as respostas de vocês
+          </p>
+        </div>
+
+        {/* Calendar */}
+        <Card className="border-0 shadow-xl mb-6">
+          <CardHeader className="pb-2">
+            <div className="flex items-center justify-between">
+              <Button 
+                variant="ghost" 
+                size="icon" 
+                onClick={() => navigateMonth(-1)}
+              >
+                <ChevronLeftIcon className="w-5 h-5" />
+              </Button>
+              <span className="font-serif text-lg font-medium text-foreground">
+                {MONTHS[currentDate.getMonth()]} {currentDate.getFullYear()}
+              </span>
+              <Button 
+                variant="ghost" 
+                size="icon" 
+                onClick={() => navigateMonth(1)}
+              >
+                <ChevronRightIcon className="w-5 h-5" />
+              </Button>
+            </div>
+          </CardHeader>
+          <CardContent>
+            {/* Days of week header */}
+            <div className="grid grid-cols-7 gap-1 mb-2">
+              {DAYS_OF_WEEK.map(day => (
+                <div 
+                  key={day} 
+                  className="text-center text-xs font-medium text-muted-foreground py-2"
+                >
+                  {day}
+                </div>
+              ))}
+            </div>
+            
+            {/* Calendar grid */}
+            <div className="grid grid-cols-7 gap-1">
+              {calendarDays.map((date, index) => (
+                <button
+                  key={index}
+                  onClick={() => date && !isFuture(date) && handleSelectDate(date)}
+                  disabled={!date || isFuture(date)}
+                  className={`
+                    aspect-square rounded-lg flex flex-col items-center justify-center text-sm
+                    transition-all duration-200
+                    ${!date ? 'invisible' : ''}
+                    ${date && isFuture(date) ? 'text-muted-foreground/40 cursor-not-allowed' : ''}
+                    ${date && !isFuture(date) ? 'hover:bg-primary/10 cursor-pointer' : ''}
+                    ${date && isToday(date) ? 'bg-primary text-primary-foreground hover:bg-primary/90' : ''}
+                    ${date && selectedDate?.toDateString() === date.toDateString() && !isToday(date) ? 'bg-accent/30 ring-2 ring-accent' : ''}
+                  `}
+                >
+                  <span className={date && isToday(date) ? 'font-bold' : ''}>
+                    {date?.getDate()}
+                  </span>
+                  {date && hasAnswers(date) && !isToday(date) && (
+                    <HeartIcon className="w-3 h-3 text-primary mt-0.5" />
+                  )}
+                </button>
+              ))}
+            </div>
+          </CardContent>
+        </Card>
+
+        {/* Selected Date Details */}
+        {selectedDate && (
+          <div className="space-y-4 animate-in fade-in slide-in-from-bottom-4 duration-300">
+            {isLoading ? (
+              <Card className="border-0 shadow-xl">
+                <CardContent className="py-8 text-center">
+                  <HeartIcon className="w-8 h-8 text-primary mx-auto animate-pulse" />
+                  <p className="text-muted-foreground text-sm mt-2">Carregando...</p>
+                </CardContent>
+              </Card>
+            ) : selectedDateAnswers?.question ? (
+              <>
+                <Card className="border-0 shadow-xl overflow-hidden">
+                  <CardHeader className="bg-primary/10 text-center py-4">
+                    <p className="text-xs uppercase tracking-widest text-muted-foreground mb-1">
+                      {selectedDate.toLocaleDateString('pt-BR', { 
+                        weekday: 'long', 
+                        day: 'numeric', 
+                        month: 'long' 
+                      })}
+                    </p>
+                    <h2 className="font-serif text-xl text-foreground leading-relaxed text-balance">
+                      {selectedDateAnswers.question}
+                    </h2>
+                    {selectedDateAnswers.category && (
+                      <p className="text-xs text-muted-foreground mt-2 uppercase tracking-wide">
+                        {selectedDateAnswers.category}
+                      </p>
+                    )}
+                  </CardHeader>
+                </Card>
+
+                {selectedDateAnswers.userAnswer || selectedDateAnswers.partnerAnswer ? (
+                  <div className="space-y-3">
+                    {selectedDateAnswers.userAnswer && (
+                      <Card className="border-0 shadow-lg">
+                        <CardContent className="pt-5 pb-5">
+                          <div className="flex items-center gap-2 mb-3">
+                            <div className="w-7 h-7 rounded-full bg-primary/20 flex items-center justify-center">
+                              <span className="text-xs font-semibold text-primary">
+                                {user.name.charAt(0).toUpperCase()}
+                              </span>
+                            </div>
+                            <span className="text-sm font-medium text-foreground">{user.name}</span>
+                          </div>
+                          <p className="text-foreground text-sm leading-relaxed pl-9">
+                            {selectedDateAnswers.userAnswer}
+                          </p>
+                        </CardContent>
+                      </Card>
+                    )}
+
+                    {selectedDateAnswers.partnerAnswer && (
+                      <Card className="border-0 shadow-lg">
+                        <CardContent className="pt-5 pb-5">
+                          <div className="flex items-center gap-2 mb-3">
+                            <div className="w-7 h-7 rounded-full bg-accent/30 flex items-center justify-center">
+                              <span className="text-xs font-semibold text-accent">
+                                {partner?.name?.charAt(0).toUpperCase() || "?"}
+                              </span>
+                            </div>
+                            <span className="text-sm font-medium text-foreground">
+                              {partner?.name || "Parceiro(a)"}
+                            </span>
+                          </div>
+                          <p className="text-foreground text-sm leading-relaxed pl-9">
+                            {selectedDateAnswers.partnerAnswer}
+                          </p>
+                        </CardContent>
+                      </Card>
+                    )}
+                  </div>
+                ) : (
+                  <Card className="border-0 shadow-lg">
+                    <CardContent className="py-8 text-center">
+                      <p className="text-muted-foreground text-sm">
+                        Nenhuma resposta para este dia
+                      </p>
+                    </CardContent>
+                  </Card>
+                )}
+              </>
+            ) : (
+              <Card className="border-0 shadow-lg">
+                <CardContent className="py-8 text-center">
+                  <p className="text-muted-foreground text-sm">
+                    Nenhuma pergunta atribuída para este dia
+                  </p>
+                </CardContent>
+              </Card>
+            )}
+          </div>
+        )}
+
+        {/* Empty state when no date selected */}
+        {!selectedDate && (
+          <div className="text-center py-8">
+            <HeartIcon className="w-12 h-12 text-primary/30 mx-auto mb-3" />
+            <p className="text-muted-foreground text-sm">
+              Selecione um dia para ver as respostas
+            </p>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}

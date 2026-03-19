@@ -1,1 +1,176 @@
-{"data":"Ly8gQ2xpZW50LXNpZGUgc3RvcmFnZSAtIG9ubHkgc3RvcmVzIHNlc3Npb24gdG9rZW4gKGN1cnJlbnQgdXNlciBJRCkKLy8gQWxsIHVzZXIgYW5kIGNvdXBsZSBkYXRhIGlzIGZldGNoZWQgZnJvbSBzZXJ2ZXItc2lkZSBBUElzCgpleHBvcnQgaW50ZXJmYWNlIFVzZXIgewogIGlkOiBzdHJpbmc7CiAgbmFtZTogc3RyaW5nOwogIGVtYWlsOiBzdHJpbmc7CiAgY291cGxlQ29kZTogc3RyaW5nOwogIHBhcnRuZXJJZD86IHN0cmluZzsKfQoKZXhwb3J0IGludGVyZmFjZSBRdWVzdGlvbiB7CiAgaWQ6IHN0cmluZzsKICB0ZXh0OiBzdHJpbmc7CiAgY2F0ZWdvcnk6IHN0cmluZzsKfQoKZXhwb3J0IGludGVyZmFjZSBBbnN3ZXJEYXRhIHsKICBxdWVzdGlvbjogUXVlc3Rpb24gfCBudWxsOwogIHVzZXJBbnN3ZXI6IHN0cmluZyB8IG51bGw7CiAgcGFydG5lckFuc3dlcjogc3RyaW5nIHwgbnVsbDsKfQoKY29uc3QgQ1VSUkVOVF9VU0VSX0tFWSA9ICdub3Nkb2lzX2N1cnJlbnRfdXNlcl9pZCc7CgovLyBTZXNzaW9uIG1hbmFnZW1lbnQgLSBzdG9yZXMgb25seSB1c2VyIElEIGluIGxvY2FsU3RvcmFnZQpleHBvcnQgZnVuY3Rpb24gZ2V0Q3VycmVudFVzZXJJZCgpOiBzdHJpbmcgfCBudWxsIHsKICBpZiAodHlwZW9mIHdpbmRvdyA9PT0gJ3VuZGVmaW5lZCcpIHJldHVybiBudWxsOwogIHJldHVybiBsb2NhbFN0b3JhZ2UuZ2V0SXRlbShDVVJSRU5UX1VTRVJfS0VZKTsKfQoKZXhwb3J0IGZ1bmN0aW9uIHNldEN1cnJlbnRVc2VySWQodXNlcklkOiBzdHJpbmcgfCBudWxsKTogdm9pZCB7CiAgaWYgKHR5cGVvZiB3aW5kb3cgPT09ICd1bmRlZmluZWQnKSByZXR1cm47CiAgaWYgKHVzZXJJZCkgewogICAgbG9jYWxTdG9yYWdlLnNldEl0ZW0oQ1VSUkVOVF9VU0VSX0tFWSwgdXNlcklkKTsKICB9IGVsc2UgewogICAgbG9jYWxTdG9yYWdlLnJlbW92ZUl0ZW0oQ1VSUkVOVF9VU0VSX0tFWSk7CiAgfQp9CgpleHBvcnQgZnVuY3Rpb24gbG9nb3V0VXNlcigpOiB2b2lkIHsKICBzZXRDdXJyZW50VXNlcklkKG51bGwpOwp9CgovLyBBUEkgZnVuY3Rpb25zCmV4cG9ydCBhc3luYyBmdW5jdGlvbiByZWdpc3RlclVzZXIobmFtZTogc3RyaW5nLCBlbWFpbDogc3RyaW5nLCBwYXNzd29yZDogc3RyaW5nKTogUHJvbWlzZTxVc2VyIHwgeyBlcnJvcjogc3RyaW5nIH0+IHsKICB0cnkgewogICAgY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBmZXRjaCgnL2FwaS9hdXRoL3JlZ2lzdGVyJywgewogICAgICBtZXRob2Q6ICdQT1NUJywKICAgICAgaGVhZGVyczogeyAnQ29udGVudC1UeXBlJzogJ2FwcGxpY2F0aW9uL2pzb24nIH0sCiAgICAgIGJvZHk6IEpTT04uc3RyaW5naWZ5KHsgbmFtZSwgZW1haWwsIHBhc3N3b3JkIH0pLAogICAgfSk7CiAgICAKICAgIGNvbnN0IGRhdGEgPSBhd2FpdCByZXNwb25zZS5qc29uKCk7CiAgICAKICAgIGlmICghcmVzcG9uc2Uub2spIHsKICAgICAgcmV0dXJuIHsgZXJyb3I6IGRhdGEuZXJyb3IgfHwgJ0Vycm8gYW8gcmVnaXN0cmFyJyB9OwogICAgfQogICAgCiAgICBzZXRDdXJyZW50VXNlcklkKGRhdGEudXNlci5pZCk7CiAgICByZXR1cm4gZGF0YS51c2VyOwogIH0gY2F0Y2ggewogICAgcmV0dXJuIHsgZXJyb3I6ICdFcnJvIGRlIGNvbmV4w6NvJyB9OwogIH0KfQoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGxvZ2luVXNlcihlbWFpbDogc3RyaW5nLCBwYXNzd29yZDogc3RyaW5nKTogUHJvbWlzZTxVc2VyIHwgeyBlcnJvcjogc3RyaW5nIH0+IHsKICB0cnkgewogICAgY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBmZXRjaCgnL2FwaS9hdXRoL2xvZ2luJywgewogICAgICBtZXRob2Q6ICdQT1NUJywKICAgICAgaGVhZGVyczogeyAnQ29udGVudC1UeXBlJzogJ2FwcGxpY2F0aW9uL2pzb24nIH0sCiAgICAgIGJvZHk6IEpTT04uc3RyaW5naWZ5KHsgZW1haWwsIHBhc3N3b3JkIH0pLAogICAgfSk7CiAgICAKICAgIGNvbnN0IGRhdGEgPSBhd2FpdCByZXNwb25zZS5qc29uKCk7CiAgICAKICAgIGlmICghcmVzcG9uc2Uub2spIHsKICAgICAgcmV0dXJuIHsgZXJyb3I6IGRhdGEuZXJyb3IgfHwgJ0Vycm8gYW8gZmF6ZXIgbG9naW4nIH07CiAgICB9CiAgICAKICAgIHNldEN1cnJlbnRVc2VySWQoZGF0YS51c2VyLmlkKTsKICAgIHJldHVybiBkYXRhLnVzZXI7CiAgfSBjYXRjaCB7CiAgICByZXR1cm4geyBlcnJvcjogJ0Vycm8gZGUgY29uZXjDo28nIH07CiAgfQp9CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gZ2V0Q3VycmVudFVzZXIoKTogUHJvbWlzZTxVc2VyIHwgbnVsbD4gewogIGNvbnN0IHVzZXJJZCA9IGdldEN1cnJlbnRVc2VySWQoKTsKICBpZiAoIXVzZXJJZCkgcmV0dXJuIG51bGw7CiAgCiAgdHJ5IHsKICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgZmV0Y2goYC9hcGkvY291cGxlL3N0YXR1cz91c2VySWQ9JHt1c2VySWR9YCk7CiAgICBpZiAoIXJlc3BvbnNlLm9rKSByZXR1cm4gbnVsbDsKICAgIAogICAgY29uc3QgZGF0YSA9IGF3YWl0IHJlc3BvbnNlLmpzb24oKTsKICAgIHJldHVybiBkYXRhLnVzZXIgfHwgbnVsbDsKICB9IGNhdGNoIHsKICAgIHJldHVybiBudWxsOwogIH0KfQoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGdldENvdXBsZVN0YXR1cyh1c2VySWQ6IHN0cmluZyk6IFByb21pc2U8eyB1c2VyOiBVc2VyOyBwYXJ0bmVyOiBVc2VyIHwgbnVsbCB9IHwgbnVsbD4gewogIHRyeSB7CiAgICBjb25zdCByZXNwb25zZSA9IGF3YWl0IGZldGNoKGAvYXBpL2NvdXBsZS9zdGF0dXM/dXNlcklkPSR7dXNlcklkfWApOwogICAgaWYgKCFyZXNwb25zZS5vaykgcmV0dXJuIG51bGw7CiAgICAKICAgIGNvbnN0IGRhdGEgPSBhd2FpdCByZXNwb25zZS5qc29uKCk7CiAgICByZXR1cm4gZGF0YTsKICB9IGNhdGNoIHsKICAgIHJldHVybiBudWxsOwogIH0KfQoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGxpbmtQYXJ0bmVyKHVzZXJJZDogc3RyaW5nLCBwYXJ0bmVyQ29kZTogc3RyaW5nKTogUHJvbWlzZTx7IHVzZXI6IFVzZXI7IHBhcnRuZXI6IFVzZXIgfSB8IHsgZXJyb3I6IHN0cmluZyB9PiB7CiAgdHJ5IHsKICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgZmV0Y2goJy9hcGkvY291cGxlL2Nvbm5lY3QnLCB7CiAgICAgIG1ldGhvZDogJ1BPU1QnLAogICAgICBoZWFkZXJzOiB7ICdDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbicgfSwKICAgICAgYm9keTogSlNPTi5zdHJpbmdpZnkoeyB1c2VySWQsIHBhcnRuZXJDb2RlIH0pLAogICAgfSk7CiAgICAKICAgIGNvbnN0IGRhdGEgPSBhd2FpdCByZXNwb25zZS5qc29uKCk7CiAgICAKICAgIGlmICghcmVzcG9uc2Uub2spIHsKICAgICAgcmV0dXJuIHsgZXJyb3I6IGRhdGEuZXJyb3IgfHwgJ0Vycm8gYW8gY29uZWN0YXInIH07CiAgICB9CiAgICAKICAgIHJldHVybiBkYXRhOwogIH0gY2F0Y2ggewogICAgcmV0dXJuIHsgZXJyb3I6ICdFcnJvIGRlIGNvbmV4w6NvJyB9OwogIH0KfQoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHNhdmVBbnN3ZXIodXNlcklkOiBzdHJpbmcsIGRhdGU6IHN0cmluZywgYW5zd2VyOiBzdHJpbmcpOiBQcm9taXNlPHsgc3VjY2VzczogYm9vbGVhbiB9IHwgeyBlcnJvcjogc3RyaW5nIH0+IHsKICB0cnkgewogICAgY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBmZXRjaCgnL2FwaS9hbnN3ZXJzL3NhdmUnLCB7CiAgICAgIG1ldGhvZDogJ1BPU1QnLAogICAgICBoZWFkZXJzOiB7ICdDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbicgfSwKICAgICAgYm9keTogSlNPTi5zdHJpbmdpZnkoeyB1c2VySWQsIGRhdGUsIGFuc3dlciB9KSwKICAgIH0pOwogICAgCiAgICBjb25zdCBkYXRhID0gYXdhaXQgcmVzcG9uc2UuanNvbigpOwogICAgCiAgICBpZiAoIXJlc3BvbnNlLm9rKSB7CiAgICAgIHJldHVybiB7IGVycm9yOiBkYXRhLmVycm9yIHx8ICdFcnJvIGFvIHNhbHZhciByZXNwb3N0YScgfTsKICAgIH0KICAgIAogICAgcmV0dXJuIHsgc3VjY2VzczogdHJ1ZSB9OwogIH0gY2F0Y2ggewogICAgcmV0dXJuIHsgZXJyb3I6ICdFcnJvIGRlIGNvbmV4w6NvJyB9OwogIH0KfQoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGdldEFuc3dlcnNGb3JEYXRlKHVzZXJJZDogc3RyaW5nLCBkYXRlOiBzdHJpbmcpOiBQcm9taXNlPEFuc3dlckRhdGE+IHsKICB0cnkgewogICAgY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBmZXRjaChgL2FwaS9hbnN3ZXJzL2dldD91c2VySWQ9JHt1c2VySWR9JmRhdGU9JHtkYXRlfWApOwogICAgaWYgKCFyZXNwb25zZS5vaykgcmV0dXJuIHsgcXVlc3Rpb246IG51bGwsIHVzZXJBbnN3ZXI6IG51bGwsIHBhcnRuZXJBbnN3ZXI6IG51bGwgfTsKICAgIAogICAgcmV0dXJuIHJlc3BvbnNlLmpzb24oKTsKICB9IGNhdGNoIHsKICAgIHJldHVybiB7IHF1ZXN0aW9uOiBudWxsLCB1c2VyQW5zd2VyOiBudWxsLCBwYXJ0bmVyQW5zd2VyOiBudWxsIH07CiAgfQp9CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gZ2V0RGF0ZXNXaXRoQW5zd2Vycyh1c2VySWQ6IHN0cmluZyk6IFByb21pc2U8c3RyaW5nW10+IHsKICB0cnkgewogICAgY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBmZXRjaChgL2FwaS9hbnN3ZXJzL2dldD91c2VySWQ9JHt1c2VySWR9YCk7CiAgICBpZiAoIXJlc3BvbnNlLm9rKSByZXR1cm4gW107CiAgICAKICAgIGNvbnN0IGRhdGEgPSBhd2FpdCByZXNwb25zZS5qc29uKCk7CiAgICByZXR1cm4gZGF0YS5kYXRlc1dpdGhBbnN3ZXJzIHx8IFtdOwogIH0gY2F0Y2ggewogICAgcmV0dXJuIFtdOwogIH0KfQo="}
+// Client-side storage - only stores session token (current user ID)
+// All user and couple data is fetched from server-side APIs
+
+export interface User {
+  id: string;
+  name: string;
+  email: string;
+  coupleCode: string;
+  partnerId?: string;
+}
+
+export interface Question {
+  id: string;
+  text: string;
+  category: string;
+}
+
+export interface AnswerData {
+  question: Question | null;
+  userAnswer: string | null;
+  partnerAnswer: string | null;
+}
+
+const CURRENT_USER_KEY = 'nosdois_current_user_id';
+
+// Session management - stores only user ID in localStorage
+export function getCurrentUserId(): string | null {
+  if (typeof window === 'undefined') return null;
+  return localStorage.getItem(CURRENT_USER_KEY);
+}
+
+export function setCurrentUserId(userId: string | null): void {
+  if (typeof window === 'undefined') return;
+  if (userId) {
+    localStorage.setItem(CURRENT_USER_KEY, userId);
+  } else {
+    localStorage.removeItem(CURRENT_USER_KEY);
+  }
+}
+
+export function logoutUser(): void {
+  setCurrentUserId(null);
+}
+
+// API functions
+export async function registerUser(name: string, email: string, password: string): Promise<User | { error: string }> {
+  try {
+    const response = await fetch('/api/auth/register', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name, email, password }),
+    });
+    
+    const data = await response.json();
+    
+    if (!response.ok) {
+      return { error: data.error || 'Erro ao registrar' };
+    }
+    
+    setCurrentUserId(data.user.id);
+    return data.user;
+  } catch {
+    return { error: 'Erro de conexão' };
+  }
+}
+
+export async function loginUser(email: string, password: string): Promise<User | { error: string }> {
+  try {
+    const response = await fetch('/api/auth/login', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email, password }),
+    });
+    
+    const data = await response.json();
+    
+    if (!response.ok) {
+      return { error: data.error || 'Erro ao fazer login' };
+    }
+    
+    setCurrentUserId(data.user.id);
+    return data.user;
+  } catch {
+    return { error: 'Erro de conexão' };
+  }
+}
+
+export async function getCurrentUser(): Promise<User | null> {
+  const userId = getCurrentUserId();
+  if (!userId) return null;
+  
+  try {
+    const response = await fetch(`/api/couple/status?userId=${userId}`);
+    if (!response.ok) return null;
+    
+    const data = await response.json();
+    return data.user || null;
+  } catch {
+    return null;
+  }
+}
+
+export async function getCoupleStatus(userId: string): Promise<{ user: User; partner: User | null } | null> {
+  try {
+    const response = await fetch(`/api/couple/status?userId=${userId}`);
+    if (!response.ok) return null;
+    
+    const data = await response.json();
+    return data;
+  } catch {
+    return null;
+  }
+}
+
+export async function linkPartner(userId: string, partnerCode: string): Promise<{ user: User; partner: User } | { error: string }> {
+  try {
+    const response = await fetch('/api/couple/connect', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ userId, partnerCode }),
+    });
+    
+    const data = await response.json();
+    
+    if (!response.ok) {
+      return { error: data.error || 'Erro ao conectar' };
+    }
+    
+    return data;
+  } catch {
+    return { error: 'Erro de conexão' };
+  }
+}
+
+export async function saveAnswer(userId: string, date: string, answer: string): Promise<{ success: boolean } | { error: string }> {
+  try {
+    const response = await fetch('/api/answers/save', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ userId, date, answer }),
+    });
+    
+    const data = await response.json();
+    
+    if (!response.ok) {
+      return { error: data.error || 'Erro ao salvar resposta' };
+    }
+    
+    return { success: true };
+  } catch {
+    return { error: 'Erro de conexão' };
+  }
+}
+
+export async function getAnswersForDate(userId: string, date: string): Promise<AnswerData> {
+  try {
+    const response = await fetch(`/api/answers/get?userId=${userId}&date=${date}`);
+    if (!response.ok) return { question: null, userAnswer: null, partnerAnswer: null };
+    
+    return response.json();
+  } catch {
+    return { question: null, userAnswer: null, partnerAnswer: null };
+  }
+}
+
+export async function getDatesWithAnswers(userId: string): Promise<string[]> {
+  try {
+    const response = await fetch(`/api/answers/get?userId=${userId}`);
+    if (!response.ok) return [];
+    
+    const data = await response.json();
+    return data.datesWithAnswers || [];
+  } catch {
+    return [];
+  }
+}
