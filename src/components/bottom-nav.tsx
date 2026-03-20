@@ -8,7 +8,7 @@ interface BottomNavProps {
   onLogout: () => void
 }
 
-export function BottomNav({ currentView, onViewChange, onLogout }: BottomNavProps) {
+export function BottomNav({ currentView, onViewChange, onLogout }: BottomNavProps) { {
   return (
     <nav className="fixed bottom-0 left-0 right-0 bg-card border-t border-border z-10">
       <div className="max-w-lg mx-auto flex items-center justify-around py-2">

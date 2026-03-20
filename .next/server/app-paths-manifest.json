@@ -1,9 +1,9 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
   "/api/answers/get/route": "app/api/answers/get/route.js",
+  "/api/answers/save/route": "app/api/answers/save/route.js",
   "/api/auth/login/route": "app/api/auth/login/route.js",
   "/api/auth/register/route": "app/api/auth/register/route.js",
-  "/api/answers/save/route": "app/api/answers/save/route.js",
   "/api/couple/connect/route": "app/api/couple/connect/route.js",
   "/api/couple/disconnect/route": "app/api/couple/disconnect/route.js",
   "/api/couple/status/route": "app/api/couple/status/route.js",
