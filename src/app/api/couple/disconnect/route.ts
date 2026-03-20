@@ -6,6 +6,7 @@ export async function POST(request: Request) {
     const body = await request.json();
     const { userId } = body;
 
+    if (!userId) {
       return NextResponse.json(
         { error: 'ID do usuario e obrigatorio' },
         { status: 400 }
@@ -20,6 +21,7 @@ export async function POST(request: Request) {
       .eq('id', userId)
       .single();
 
+    if (userError || !user) {
       return NextResponse.json(
         { error: 'Usuario nao encontrado' },
         { status: 404 }
