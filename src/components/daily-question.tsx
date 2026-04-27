@@ -1,208 +1,157 @@
-"use client";
+"use client"
 
-import { useState, useEffect, useCallback } from "react";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader } from "@/components/ui/card";
-import { Textarea } from "@/components/ui/textarea";
-import { HeartIcon } from "@/components/icons";
-import { User, Question, getCoupleStatus, saveAnswer, getAnswersForDate } from "@/lib/storage";
+import { useState, useEffect, useCallback } from "react"
+import { Heart, Send } from "lucide-react"
+import { User, getAnswersForDate, saveAnswer } from "@/lib/storage"
 
 interface DailyQuestionProps {
-  user: User;
-}
-
-function formatDateKey(date: Date): string {
-  return date.toISOString().split("T")[0];
+  user: User
 }
 
 export function DailyQuestion({ user }: DailyQuestionProps) {
-  const [partner, setPartner] = useState<User | null>(null);
-  const [question, setQuestion] = useState<Question | null>(null);
-  const [dateKey, setDateKey] = useState("");
-  const [myAnswer, setMyAnswer] = useState("");
-  const [userAnswer, setUserAnswer] = useState<string | null>(null);
-  const [partnerAnswer, setPartnerAnswer] = useState<string | null>(null);
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [isLoading, setIsLoading] = useState(true);
+  const [question, setQuestion] = useState<{ id: string; text: string; category: string } | null>(null)
+  const [myAnswer, setMyAnswer] = useState("")
+  const [userAnswer, setUserAnswer] = useState<string | null>(null)
+  const [partnerAnswer, setPartnerAnswer] = useState<string | null>(null)
+  const [submitting, setSubmitting] = useState(false)
+  const [loading, setLoading] = useState(true)
 
-  const loadData = useCallback(async (date: string) => {
-    setIsLoading(true);
-    try {
-      const data = await getAnswersForDate(user.id, date);
-      setQuestion(data.question);
-      setUserAnswer(data.userAnswer);
-      setPartnerAnswer(data.partnerAnswer);
-      if (data.userAnswer) {
-        setMyAnswer(data.userAnswer);
-      }
-    } finally {
-      setIsLoading(false);
-    }
-  }, [user.id]);
+  const today = new Date().toISOString().split("T")[0]
 
+  const load = useCallback(async () => {
+    const data = await getAnswersForDate(today)
+    setQuestion(data.question)
+    setUserAnswer(data.userAnswer)
+    setPartnerAnswer(data.partnerAnswer)
+    if (data.userAnswer) setMyAnswer(data.userAnswer)
+    setLoading(false)
+  }, [today])
+
+  useEffect(() => { load() }, [load])
+
+  // Poll for partner answer every 15s after user answered
   useEffect(() => {
-    const today = new Date();
-    const key = formatDateKey(today);
-    setDateKey(key);
-    
-    // Load partner info
-    getCoupleStatus(user.id).then(status => {
-      if (status?.partner) {
-        setPartner(status.partner);
-      }
-    });
-  }, [user.id]);
-
-  useEffect(() => {
-    if (dateKey) {
-      loadData(dateKey);
-    }
-  }, [dateKey, loadData]);
-
-  // Poll for partner's answer every 10 seconds if we've answered but partner hasn't
-  useEffect(() => {
-    if (userAnswer && !partnerAnswer && dateKey) {
-      const interval = setInterval(() => {
-        loadData(dateKey);
-      }, 10000);
-      return () => clearInterval(interval);
-    }
-  }, [userAnswer, partnerAnswer, dateKey, loadData]);
+    if (!userAnswer || partnerAnswer) return
+    const id = setInterval(load, 15000)
+    return () => clearInterval(id)
+  }, [userAnswer, partnerAnswer, load])
 
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!myAnswer.trim()) return;
-    
-    setIsSubmitting(true);
-    try {
-      const result = await saveAnswer(user.id, dateKey, myAnswer);
-      if (!("error" in result)) {
-        await loadData(dateKey);
-      }
-    } finally {
-      setIsSubmitting(false);
-    }
-  };
+    e.preventDefault()
+    if (!myAnswer.trim()) return
+    setSubmitting(true)
+    const result = await saveAnswer(today, myAnswer)
+    if (!("error" in result)) await load()
+    setSubmitting(false)
+  }
 
-  const bothAnswered = userAnswer && partnerAnswer;
+  const partnerName = user.partner?.name ?? "seu amor"
+  const dateLabel = new Date().toLocaleDateString("pt-BR", {
+    weekday: "long", day: "numeric", month: "long",
+  })
 
-  if (isLoading) {
+  if (loading) {
     return (
-      <div className="p-4 pb-24">
-        <div className="max-w-lg mx-auto text-center pt-20">
-          <HeartIcon className="w-12 h-12 text-primary mx-auto animate-pulse" />
-          <p className="text-muted-foreground mt-4">Carregando...</p>
-        </div>
+      <div className="min-h-screen flex items-center justify-center">
+        <Heart className="w-10 h-10 text-primary animate-pulse" />
       </div>
-    );
+    )
   }
 
   return (
-    <div className="p-4 pb-24">
-      <div className="max-w-lg mx-auto">
-        {/* Couple Header */}
-        <div className="text-center mb-8 pt-4">
-          <div className="flex items-center justify-center gap-4 mb-2">
-            <span className="text-lg font-medium text-foreground">{user.name}</span>
-            <HeartIcon className="w-6 h-6 text-primary animate-pulse" />
-            <span className="text-lg font-medium text-foreground">{partner?.name || "..."}</span>
+    <div className="min-h-screen pb-24 bg-background">
+      {/* Header */}
+      <div className="px-4 pt-10 pb-6 text-center">
+        <div className="flex items-center justify-center gap-3 mb-1">
+          <Avatar name={user.name} url={user.avatarUrl} size="sm" />
+          <Heart className="w-5 h-5 text-primary" fill="currentColor" />
+          <Avatar name={partnerName} url={user.partner?.avatarUrl} size="sm" />
+        </div>
+        <p className="text-sm text-muted-foreground capitalize mt-3">{dateLabel}</p>
+      </div>
+
+      <div className="px-4 max-w-lg mx-auto space-y-4">
+        {/* Question card */}
+        <div className="bg-card rounded-3xl shadow-xl overflow-hidden">
+          <div className="bg-primary/10 px-6 py-8 text-center">
+            <span className="text-xs uppercase tracking-widest text-muted-foreground">Pergunta do Dia</span>
+            <p className="font-serif text-xl text-foreground leading-relaxed mt-3">
+              {question?.text ?? "Carregando pergunta..."}
+            </p>
+            {question?.category && (
+              <span className="inline-block mt-3 text-xs text-muted-foreground uppercase tracking-wide bg-background/50 px-3 py-1 rounded-full">
+                {question.category}
+              </span>
+            )}
           </div>
-          <p className="text-sm text-muted-foreground">
-            {new Date().toLocaleDateString('pt-BR', { 
-              weekday: 'long', 
-              day: 'numeric', 
-              month: 'long' 
-            })}
-          </p>
+
+          {/* Answer form */}
+          <div className="p-5">
+            {!userAnswer ? (
+              <form onSubmit={handleSubmit} className="space-y-3">
+                <textarea
+                  placeholder="Escreva sua resposta..."
+                  value={myAnswer}
+                  onChange={(e) => setMyAnswer(e.target.value)}
+                  rows={4}
+                  className="w-full rounded-2xl border border-input bg-secondary/30 px-4 py-3 text-sm resize-none focus:outline-none focus:ring-2 focus:ring-primary/50"
+                />
+                <button
+                  type="submit"
+                  disabled={submitting || !myAnswer.trim()}
+                  className="w-full h-12 rounded-xl bg-primary text-primary-foreground font-semibold text-sm flex items-center justify-center gap-2 hover:bg-primary/90 transition-colors disabled:opacity-50"
+                >
+                  <Send className="w-4 h-4" />
+                  {submitting ? "Salvando..." : "Enviar Resposta"}
+                </button>
+              </form>
+            ) : !partnerAnswer ? (
+              <div className="text-center py-4">
+                <Heart className="w-8 h-8 text-primary mx-auto mb-2 animate-pulse" fill="currentColor" />
+                <p className="text-sm text-muted-foreground">
+                  Aguardando <span className="font-medium text-foreground">{partnerName}</span> responder...
+                </p>
+              </div>
+            ) : null}
+          </div>
         </div>
 
-        {/* Today's Question */}
-        <Card className="border-0 shadow-xl mb-6 overflow-hidden">
-          <CardHeader className="bg-primary/10 text-center py-6">
-            <p className="text-xs uppercase tracking-widest text-muted-foreground mb-2">
-              Pergunta do Dia
-            </p>
-            <h2 className="font-serif text-2xl text-foreground leading-relaxed text-balance">
-              {question?.text || "Carregando pergunta..."}
-            </h2>
-            {question?.category && (
-              <p className="text-xs text-muted-foreground mt-2 uppercase tracking-wide">
-                {question.category}
-              </p>
-            )}
-          </CardHeader>
-          <CardContent className="pt-6">
-            <form onSubmit={handleSubmit}>
-              <Textarea
-                placeholder="Escreva sua resposta aqui..."
-                value={myAnswer}
-                onChange={(e) => setMyAnswer(e.target.value)}
-                className="min-h-32 bg-secondary/30 border-0 resize-none text-base"
-                disabled={!!userAnswer}
-              />
-              {!userAnswer && (
-                <Button 
-                  type="submit" 
-                  className="w-full mt-4" 
-                  size="lg"
-                  disabled={isSubmitting || !myAnswer.trim()}
-                >
-                  {isSubmitting ? "Salvando..." : "Enviar Resposta"}
-                </Button>
-              )}
-              {userAnswer && !partnerAnswer && (
-                <div className="mt-4 p-4 bg-accent/20 rounded-lg text-center">
-                  <HeartIcon className="w-8 h-8 text-accent mx-auto mb-2 animate-pulse" />
-                  <p className="text-sm text-muted-foreground">
-                    Resposta enviada! Aguardando {partner?.name || "seu amor"} responder...
-                  </p>
-                </div>
-              )}
-            </form>
-          </CardContent>
-        </Card>
-
-        {/* Both Answers */}
-        {bothAnswered && (
-          <div className="space-y-4">
-            <h3 className="font-serif text-xl text-center text-foreground mb-4">
-              Suas Respostas
-            </h3>
-            
-            <Card className="border-0 shadow-lg bg-card">
-              <CardContent className="pt-6">
-                <div className="flex items-center gap-2 mb-3">
-                  <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center">
-                    <span className="text-sm font-semibold text-primary">
-                      {user.name.charAt(0).toUpperCase()}
-                    </span>
-                  </div>
-                  <span className="font-medium text-foreground">{user.name}</span>
-                </div>
-                <p className="text-foreground leading-relaxed pl-10">
-                  {userAnswer}
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="border-0 shadow-lg bg-card">
-              <CardContent className="pt-6">
-                <div className="flex items-center gap-2 mb-3">
-                  <div className="w-8 h-8 rounded-full bg-accent/30 flex items-center justify-center">
-                    <span className="text-sm font-semibold text-accent">
-                      {partner?.name?.charAt(0).toUpperCase() || "?"}
-                    </span>
-                  </div>
-                  <span className="font-medium text-foreground">{partner?.name || "Parceiro(a)"}</span>
-                </div>
-                <p className="text-foreground leading-relaxed pl-10">
-                  {partnerAnswer}
-                </p>
-              </CardContent>
-            </Card>
+        {/* Both answers */}
+        {userAnswer && partnerAnswer && (
+          <div className="space-y-3">
+            <p className="font-serif text-lg text-center text-foreground">Respostas de Vocês</p>
+            <AnswerCard name={user.name} answer={userAnswer} avatarUrl={user.avatarUrl} />
+            <AnswerCard name={partnerName} answer={partnerAnswer} avatarUrl={user.partner?.avatarUrl} />
           </div>
+        )}
+
+        {/* My answer preview while waiting */}
+        {userAnswer && !partnerAnswer && (
+          <AnswerCard name={user.name} answer={userAnswer} avatarUrl={user.avatarUrl} dim />
         )}
       </div>
     </div>
-  );
+  )
+}
+
+function Avatar({ name, url, size = "md" }: { name: string; url?: string | null; size?: "sm" | "md" }) {
+  const sz = size === "sm" ? "w-9 h-9 text-sm" : "w-11 h-11 text-base"
+  if (url) return <img src={url} alt={name} className={`${sz} rounded-full object-cover ring-2 ring-primary/20`} />
+  return (
+    <div className={`${sz} rounded-full bg-primary/20 flex items-center justify-center font-semibold text-primary`}>
+      {name.charAt(0).toUpperCase()}
+    </div>
+  )
+}
+
+function AnswerCard({ name, answer, avatarUrl, dim }: { name: string; answer: string; avatarUrl?: string | null; dim?: boolean }) {
+  return (
+    <div className={`bg-card rounded-2xl shadow-lg p-4 ${dim ? "opacity-70" : ""}`}>
+      <div className="flex items-center gap-2 mb-2">
+        <Avatar name={name} url={avatarUrl} size="sm" />
+        <span className="font-medium text-sm">{name}</span>
+      </div>
+      <p className="text-sm text-foreground leading-relaxed pl-11">{answer}</p>
+    </div>
+  )
 }

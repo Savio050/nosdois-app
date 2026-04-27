@@ -1,53 +1,26 @@
-import { NextResponse } from 'next/server';
-import { createClient } from '@/lib/supabase/server';
+import { NextResponse } from 'next/server'
+import { getSession } from '@/lib/session'
+import { createClient } from '@/lib/supabase/server'
 
-export async function POST(request: Request) {
+export async function POST() {
+  const userId = await getSession()
+  if (!userId) return NextResponse.json({ error: 'Não autenticado' }, { status: 401 })
+
   try {
-    const body = await request.json();
-    const { userId } = body;
+    const supabase = await createClient()
 
-    if (!userId) {
-      return NextResponse.json(
-        { error: 'ID do usuario e obrigatorio' },
-        { status: 400 }
-      );
-    }
+    const { data: user } = await supabase
+      .from('users').select('partner_id').eq('id', userId).single()
 
-    const supabase = await createClient();
+    if (!user) return NextResponse.json({ error: 'Usuário não encontrado' }, { status: 404 })
 
-    const { data: user, error: userError } = await supabase
-      .from('users')
-      .select('*')
-      .eq('id', userId)
-      .single();
+    const partnerId = user.partner_id
+    await supabase.from('users').update({ partner_id: null }).eq('id', userId)
+    if (partnerId) await supabase.from('users').update({ partner_id: null }).eq('id', partnerId)
 
-    if (userError || !user) {
-      return NextResponse.json(
-        { error: 'Usuario nao encontrado' },
-        { status: 404 }
-      );
-    }
-
-    const partnerId = user.partner_id;
-
-    await supabase
-      .from('users')
-      .update({ partner_id: null })
-      .eq('id', userId);
-
-    if (partnerId) {
-      await supabase
-        .from('users')
-        .update({ partner_id: null })
-        .eq('id', partnerId);
-    }
-
-    return NextResponse.json({ success: true });
-  } catch (error) {
-    console.error('Disconnect error:', error);
-    return NextResponse.json(
-      { error: 'Erro interno do servidor' },
-      { status: 500 }
-    );
+    return NextResponse.json({ success: true })
+  } catch (err) {
+    console.error('Disconnect error:', err)
+    return NextResponse.json({ error: 'Erro ao desconectar' }, { status: 500 })
   }
 }

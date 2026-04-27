@@ -5,23 +5,16 @@ import { AuthForms } from "@/components/auth-forms"
 import { CoupleLink } from "@/components/couple-link"
 import { DailyQuestion } from "@/components/daily-question"
 import { HistoryCalendar } from "@/components/history-calendar"
+import { ProfileTab } from "@/components/profile-tab"
 import { BottomNav } from "@/components/bottom-nav"
-import { ManagePartner } from "@/components/manage-partner"
+import { User } from "@/lib/storage"
+import { Heart } from "lucide-react"
 
-interface User {
-  id: string
-  name: string
-  email: string
-  partner?: {
-    id: string
-    name: string
-    email: string
-  } | null
-}
+type AppState = "loading" | "auth" | "link" | "app"
 
 export default function Home() {
-  const [appState, setAppState] = useState<"loading" | "auth" | "link" | "app">("loading")
-  const [currentUser, setCurrentUser] = useState<User | null>(null)
+  const [appState, setAppState] = useState<AppState>("loading")
+  const [user, setUser] = useState<User | null>(null)
   const [view, setView] = useState("home")
 
   useEffect(() => {
@@ -29,7 +22,7 @@ export default function Home() {
       .then((r) => r.json())
       .then((data) => {
         if (data.user) {
-          setCurrentUser(data.user)
+          setUser(data.user)
           setAppState(data.user.partner ? "app" : "link")
         } else {
           setAppState("auth")
@@ -38,74 +31,64 @@ export default function Home() {
       .catch(() => setAppState("auth"))
   }, [])
 
-  const handleAuthSuccess = (user: User) => {
-    setCurrentUser(user)
-    setAppState(user.partner ? "app" : "link")
+  const handleAuthSuccess = (u: User) => {
+    setUser(u)
+    setAppState(u.partner ? "app" : "link")
   }
 
-  const handleLinkSuccess = (user: User) => {
-    setCurrentUser(user)
+  const handleLinkSuccess = (u: User) => {
+    setUser(u)
     setAppState("app")
   }
 
-  const handleLogout = () => {
-    fetch("/api/auth/logout", { method: "POST" }).finally(() => {
-      setCurrentUser(null)
-      setAppState("auth")
-      setView("home")
-    })
+  const handleLogout = async () => {
+    await fetch("/api/auth/logout", { method: "POST" })
+    setUser(null)
+    setAppState("auth")
+    setView("home")
   }
 
   const handlePartnerDisconnect = () => {
-    setCurrentUser((prev) => prev ? { ...prev, partner: null } : null)
+    setUser((prev) => prev ? { ...prev, partner: null } : null)
     setAppState("link")
     setView("home")
   }
 
-  const handlePartnerNameUpdated = (newName: string) => {
-    setCurrentUser((prev) =>
-      prev && prev.partner
-        ? { ...prev, partner: { ...prev.partner, name: newName } }
-        : prev
-    )
+  const handleUserUpdated = (updated: User) => {
+    setUser(updated)
   }
 
   if (appState === "loading") {
     return (
       <div className="min-h-screen flex items-center justify-center bg-background">
         <div className="text-center">
-          <div className="w-12 h-12 rounded-full bg-primary/20 animate-pulse mx-auto mb-4" />
+          <Heart className="w-12 h-12 text-primary animate-pulse mx-auto mb-4" />
           <p className="text-muted-foreground">Carregando...</p>
         </div>
       </div>
     )
   }
 
-  if (appState === "auth") {
-    return <AuthForms onSuccess={handleAuthSuccess} />
+  if (appState === "auth") return <AuthForms onSuccess={handleAuthSuccess} />
+
+  if (appState === "link" && user) {
+    return <CoupleLink user={user} onLinked={handleLinkSuccess} />
   }
 
-  if (appState === "link" && currentUser) {
-    return <CoupleLink user={currentUser} onLinked={handleLinkSuccess} />
-  }
-
-  if (appState === "app" && currentUser) {
+  if (appState === "app" && user) {
     return (
       <main className="min-h-screen bg-background">
-        {view === "home" && <DailyQuestion user={currentUser} />}
-        {view === "history" && <HistoryCalendar user={currentUser} />}
-        {view === "partner" && (
-          <ManagePartner
-            user={currentUser}
+        {view === "home" && <DailyQuestion user={user} />}
+        {view === "history" && <HistoryCalendar user={user} />}
+        {view === "profile" && (
+          <ProfileTab
+            user={user}
+            onUserUpdated={handleUserUpdated}
             onDisconnect={handlePartnerDisconnect}
-            onPartnerUpdated={handlePartnerNameUpdated}
+            onLogout={handleLogout}
           />
         )}
-        <BottomNav
-          currentView={view}
-          onViewChange={setView}
-          onLogout={handleLogout}
-        />
+        <BottomNav currentView={view} onViewChange={setView} />
       </main>
     )
   }

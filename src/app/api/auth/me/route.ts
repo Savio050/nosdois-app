@@ -4,17 +4,17 @@ import { createClient } from '@/lib/supabase/server'
 
 export async function GET() {
   const userId = await getSession()
-  if (!userId) return NextResponse.json({ error: 'Não autenticado' }, { status: 401 })
+  if (!userId) return NextResponse.json({ user: null })
 
   const supabase = await createClient()
 
-  const { data: user, error } = await supabase
+  const { data: user } = await supabase
     .from('users')
     .select('id, email, name, couple_code, partner_id, avatar_url')
     .eq('id', userId)
     .single()
 
-  if (error || !user) return NextResponse.json({ error: 'Usuário não encontrado' }, { status: 404 })
+  if (!user) return NextResponse.json({ user: null })
 
   let partner = null
   if (user.partner_id) {

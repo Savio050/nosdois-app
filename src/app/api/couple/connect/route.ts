@@ -1,118 +1,45 @@
-import { NextResponse } from "next/server";
-import { createClient } from "@/lib/supabase/server";
+import { NextResponse } from 'next/server'
+import { getSession } from '@/lib/session'
+import { createClient } from '@/lib/supabase/server'
 
 export async function POST(request: Request) {
+  const userId = await getSession()
+  if (!userId) return NextResponse.json({ error: 'Não autenticado' }, { status: 401 })
+
   try {
-    const { userId, partnerCode } = await request.json();
+    const { partnerCode } = await request.json()
+    if (!partnerCode) return NextResponse.json({ error: 'Código do parceiro é obrigatório' }, { status: 400 })
 
-    if (!userId || !partnerCode) {
-      return NextResponse.json(
-        { error: "ID do usuário e código do parceiro são obrigatórios" },
-        { status: 400 }
-      );
-    }
+    const supabase = await createClient()
 
-    const supabase = await createClient();
+    const { data: me, error: meErr } = await supabase
+      .from('users').select('*').eq('id', userId).single()
+    if (meErr || !me) return NextResponse.json({ error: 'Usuário não encontrado' }, { status: 404 })
 
-    // Find current user
-    const { data: currentUser, error: userError } = await supabase
-      .from("users")
-      .select("*")
-      .eq("id", userId)
-      .single();
+    if (me.partner_id) return NextResponse.json({ error: 'Você já está conectado com um parceiro' }, { status: 400 })
 
-    if (userError || !currentUser) {
-      return NextResponse.json(
-        { error: "Usuário não encontrado" },
-        { status: 404 }
-      );
-    }
+    const { data: partner, error: pErr } = await supabase
+      .from('users').select('*').eq('couple_code', partnerCode.toUpperCase()).single()
+    if (pErr || !partner) return NextResponse.json({ error: 'Código inválido' }, { status: 404 })
 
-    // Check if already connected
-    if (currentUser.partner_id) {
-      return NextResponse.json(
-        { error: "Você já está conectado com um parceiro" },
-        { status: 400 }
-      );
-    }
+    if (partner.id === userId) return NextResponse.json({ error: 'Você não pode conectar consigo mesmo' }, { status: 400 })
+    if (partner.partner_id) return NextResponse.json({ error: 'Este usuário já está conectado com outra pessoa' }, { status: 400 })
 
-    // Find partner by code
-    const { data: partner, error: partnerError } = await supabase
-      .from("users")
-      .select("*")
-      .eq("couple_code", partnerCode.toUpperCase())
-      .single();
-
-    if (partnerError || !partner) {
-      return NextResponse.json(
-        { error: "Código inválido" },
-        { status: 404 }
-      );
-    }
-
-    // Can't connect to yourself
-    if (partner.id === userId) {
-      return NextResponse.json(
-        { error: "Você não pode conectar consigo mesmo" },
-        { status: 400 }
-      );
-    }
-
-    // Check if partner already connected
-    if (partner.partner_id) {
-      return NextResponse.json(
-        { error: "Este usuário já está conectado com outra pessoa" },
-        { status: 400 }
-      );
-    }
-
-    // Link both users - update current user
-    const { error: updateError1 } = await supabase
-      .from("users")
-      .update({ partner_id: partner.id })
-      .eq("id", userId);
-
-    // Update partner
-    const { error: updateError2 } = await supabase
-      .from("users")
-      .update({ partner_id: userId })
-      .eq("id", partner.id);
-
-    if (updateError1 || updateError2) {
-      console.error("Update errors:", updateError1, updateError2);
-      return NextResponse.json(
-        { error: "Erro ao conectar com parceiro" },
-        { status: 500 }
-      );
-    }
-
-    // Get updated user
-    const { data: updatedUser } = await supabase
-      .from("users")
-      .select("*")
-      .eq("id", userId)
-      .single();
+    await supabase.from('users').update({ partner_id: partner.id }).eq('id', userId)
+    await supabase.from('users').update({ partner_id: userId }).eq('id', partner.id)
 
     return NextResponse.json({
       user: {
-        id: updatedUser!.id,
-        email: updatedUser!.email,
-        name: updatedUser!.name,
-        coupleCode: updatedUser!.couple_code,
-        partnerId: updatedUser!.partner_id,
+        id: me.id,
+        email: me.email,
+        name: me.name,
+        coupleCode: me.couple_code,
+        avatarUrl: me.avatar_url ?? null,
+        partner: { id: partner.id, name: partner.name, email: partner.email, avatarUrl: partner.avatar_url ?? null },
       },
-      partner: {
-        id: partner.id,
-        name: partner.name,
-        email: partner.email,
-        coupleCode: partner.couple_code,
-      },
-    });
-  } catch (error) {
-    console.error("Connect error:", error);
-    return NextResponse.json(
-      { error: "Erro ao conectar com parceiro" },
-      { status: 500 }
-    );
+    })
+  } catch (err) {
+    console.error('Connect error:', err)
+    return NextResponse.json({ error: 'Erro ao conectar' }, { status: 500 })
   }
 }

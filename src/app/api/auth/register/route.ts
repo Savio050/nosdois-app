@@ -1,77 +1,57 @@
-import { NextResponse } from "next/server";
-import { createClient } from "@/lib/supabase/server";
+import { NextResponse } from 'next/server'
+import bcrypt from 'bcryptjs'
+import { createClient } from '@/lib/supabase/server'
+import { setSession } from '@/lib/session'
 
-function generateCoupleCode(): string {
-  const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-  let code = "";
-  for (let i = 0; i < 6; i++) {
-    code += chars.charAt(Math.floor(Math.random() * chars.length));
-  }
-  return code;
+function generateCode(): string {
+  const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
+  let code = ''
+  for (let i = 0; i < 6; i++) code += chars[Math.floor(Math.random() * chars.length)]
+  return code
 }
 
 export async function POST(request: Request) {
   try {
-    const { name, email, password } = await request.json();
+    const { name, email, password } = await request.json()
 
-    if (!name || !email || !password) {
-      return NextResponse.json(
-        { error: "Nome, email e senha são obrigatórios" },
-        { status: 400 }
-      );
+    if (!name?.trim() || !email?.trim() || !password) {
+      return NextResponse.json({ error: 'Nome, email e senha são obrigatórios' }, { status: 400 })
+    }
+    if (password.length < 6) {
+      return NextResponse.json({ error: 'A senha deve ter pelo menos 6 caracteres' }, { status: 400 })
     }
 
-    const supabase = await createClient();
+    const supabase = await createClient()
 
-    // Check if email already exists
-    const { data: existingUser } = await supabase
-      .from("users")
-      .select("id")
-      .eq("email", email)
-      .single();
-
-    if (existingUser) {
-      return NextResponse.json(
-        { error: "Este email já está cadastrado" },
-        { status: 400 }
-      );
+    const { data: existing } = await supabase
+      .from('users').select('id').eq('email', email.toLowerCase()).single()
+    if (existing) {
+      return NextResponse.json({ error: 'Este email já está cadastrado' }, { status: 400 })
     }
 
-    // Generate unique couple code
-    let coupleCode = generateCoupleCode();
-    let codeExists = true;
-    while (codeExists) {
-      const { data } = await supabase
-        .from("users")
-        .select("id")
-        .eq("couple_code", coupleCode)
-        .single();
-      if (!data) {
-        codeExists = false;
-      } else {
-        coupleCode = generateCoupleCode();
-      }
+    // Unique couple code
+    let coupleCode = generateCode()
+    let exists = true
+    while (exists) {
+      const { data } = await supabase.from('users').select('id').eq('couple_code', coupleCode).single()
+      if (!data) exists = false
+      else coupleCode = generateCode()
     }
 
-    // Insert new user (storing password as plain text for simplicity - in production use bcrypt)
+    const passwordHash = await bcrypt.hash(password, 12)
+
     const { data: newUser, error } = await supabase
-      .from("users")
-      .insert({
-        email,
-        name,
-        couple_code: coupleCode,
-        password_hash: password,
-      })
+      .from('users')
+      .insert({ email: email.toLowerCase(), name: name.trim(), couple_code: coupleCode, password_hash: passwordHash })
       .select()
-      .single();
+      .single()
 
     if (error) {
-      console.error("Supabase insert error:", error);
-      return NextResponse.json(
-        { error: "Erro ao criar conta" },
-        { status: 500 }
-      );
+      console.error('Register insert error:', error)
+      return NextResponse.json({ error: 'Erro ao criar conta' }, { status: 500 })
     }
+
+    await setSession(newUser.id)
 
     return NextResponse.json({
       user: {
@@ -79,14 +59,12 @@ export async function POST(request: Request) {
         email: newUser.email,
         name: newUser.name,
         coupleCode: newUser.couple_code,
-        partnerId: newUser.partner_id,
+        avatarUrl: newUser.avatar_url ?? null,
+        partner: null,
       },
-    });
-  } catch (error) {
-    console.error("Register error:", error);
-    return NextResponse.json(
-      { error: "Erro ao registrar usuário" },
-      { status: 500 }
-    );
+    })
+  } catch (err) {
+    console.error('Register error:', err)
+    return NextResponse.json({ error: 'Erro ao registrar' }, { status: 500 })
   }
 }
